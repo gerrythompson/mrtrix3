@@ -24,8 +24,7 @@
 #include "degibbs/unring1d.h"
 
 
-namespace MR {
-  namespace Degibbs {
+namespace MR::Degibbs {
 
     using ImageType = Image<cdouble>;
 
@@ -298,7 +297,6 @@ namespace MR {
 
       }
   }
-}
 
 #endif
 

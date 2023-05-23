@@ -17,9 +17,7 @@
 #include "file/nifti_utils.h"
 #include "formats/list.h"
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
     std::unique_ptr<ImageIO::Base> NIfTI2::read (Header& H) const
@@ -44,5 +42,4 @@ namespace MR
 
 
   }
-}
 

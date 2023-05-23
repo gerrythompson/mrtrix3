@@ -26,9 +26,7 @@
 #include "math/golden_section_search.h"
 
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
 
       //! \cond skip
@@ -268,7 +266,6 @@ namespace MR
       };
       //! @}
   }
-}
 
 
 

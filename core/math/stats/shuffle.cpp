@@ -23,11 +23,7 @@
 #include "math/factorial.h"
 #include "math/rng.h"
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Stats
+namespace MR::Math::Stats
     {
 
 
@@ -750,5 +746,3 @@ namespace MR
 
 
     }
-  }
-}

@@ -23,11 +23,7 @@
 #include "gui/dialog/image_properties.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace Dialog
+namespace MR::GUI::Dialog
     {
 
       ImageProperties::ImageProperties (QWidget* parent, const MR::Header& header) :
@@ -165,7 +161,5 @@ namespace MR
       }
 
     }
-  }
-}
 
 

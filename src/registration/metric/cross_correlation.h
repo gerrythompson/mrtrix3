@@ -21,11 +21,7 @@
 #include "interp/linear.h"
 #include "registration/metric/linear_base.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Metric
+namespace MR::Registration::Metric
     {
       class CrossCorrelationNoGradient : public LinearBase { 
 
@@ -256,6 +252,4 @@ namespace MR
             };
       };
     }
-  }
-}
 #endif

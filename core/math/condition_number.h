@@ -23,9 +23,7 @@
 #include <Eigen/SVD>
 #pragma GCC diagnostic pop
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
     template <class M>
@@ -37,7 +35,6 @@ namespace MR
     }
 
   }
-}
 
 #endif
 

@@ -27,9 +27,7 @@
 #include "gui/mrview/colourmap_button.h"
 
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
     namespace GL {
       class Lighting;
@@ -356,6 +354,5 @@ namespace MR
 
     }
   }
-}
 
 #endif

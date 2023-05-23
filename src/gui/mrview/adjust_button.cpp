@@ -17,11 +17,7 @@
 #include "gui/mrview/adjust_button.h"
 #include "math/math.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
 
       AdjustButton::AdjustButton (QWidget* parent, float change_rate) :
@@ -100,6 +96,4 @@ namespace MR
       }
 
     }
-  }
-}
 

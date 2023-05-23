@@ -16,13 +16,7 @@
 
 #include "gui/mrview/mode/lightbox.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Mode
+namespace MR::GUI::MRView::Mode
       {
 
         bool LightBox::show_grid_lines = true;
@@ -444,6 +438,3 @@ namespace MR
         }
 
       }
-    }
-  }
-}

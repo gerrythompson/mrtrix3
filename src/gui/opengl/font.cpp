@@ -18,11 +18,7 @@
 #include "math/math.h"
 #include "gui/opengl/font.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace GL
+namespace MR::GUI::GL
     {
 
       namespace {
@@ -242,5 +238,3 @@ namespace MR
         }
 
       }
-    }
-  }

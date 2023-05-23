@@ -20,9 +20,7 @@
 #include "mrtrix.h"
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
 
     class SpinBox : public QSpinBox
@@ -48,7 +46,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

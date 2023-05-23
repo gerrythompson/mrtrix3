@@ -16,9 +16,7 @@
 
 #include "colourmap.h"
 
-namespace MR
-{
-  namespace ColourMap
+namespace MR::ColourMap
   {
     const char* Entry::default_amplitude = "color.r";
 
@@ -134,5 +132,4 @@ namespace MR
 
 
   }
-}
 

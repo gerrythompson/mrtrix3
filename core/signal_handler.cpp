@@ -30,9 +30,7 @@
 #endif
 
 
-namespace MR
-{
-  namespace SignalHandler {
+namespace MR::SignalHandler {
 
     namespace {
       std::vector<cleanup_function_type> cleanup_operations;
@@ -154,5 +152,4 @@ namespace MR
     }
 
   }
-}
 

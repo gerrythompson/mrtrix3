@@ -16,10 +16,7 @@
 
 #include "stats.h"
 
-namespace MR
-{
-
-  namespace Stats
+namespace MR::Stats
   {
 
     using namespace App;
@@ -43,5 +40,3 @@ namespace MR
         "ignore zero values during statistics calculation");
 
   }
-
-}

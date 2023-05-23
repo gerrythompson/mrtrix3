@@ -25,50 +25,7 @@
 
 //#define DEBUG_ICLS
 
-namespace MR
-{
-  namespace Math
-  {
-
-    /** @addtogroup linalg
-      @{ */
-
-    /** @defgroup icls Inequality-constrained Least-squares
-      @{ */
-
-
-
-
-
-    //! functionality for solving constrained least-squares problems
-    /*! the problem is to solve norm(\e Hx - \e b) subject to \e Ax >=
-     * t and optionally \e Bx = s. This sets up a class to be re-used and
-     * shared across threads, assuming the matrices \e H, \e A & \e B and
-     * vectors \e t & \e s don't change, but the vector \e b does.
-     *
-     * The arguments passed to the Problem constructor correspond to:
-     * - \e H - \a problem_matrix
-     * - \e A - \a inequality_constraint_matrix
-     * - \e B - \a equality_constraint_matrix
-     * - \e b - \a problem_vector
-     * - \e t - \a inequality_constraint_vector
-     * - \e s - \a equality_constraint_vector
-     *
-     * It is also possible to apply an additional minimum norm constraint that
-     * will be added to the problem cost function, to stablise ill-posed
-     * problems, and/or a separate minimum norm constraint on the Lagrangian
-     * multipliers to handle cases where they become degenerate (otherwise
-     * leads to errors in the Cholesky decomposition). Both default to zero,
-     * set one or both of them to a small value such as 1e-10 to help with
-     * these kinds of problem.
-
-     * It is also possible to pass the problem already in standard form,
-     * whereby the matrix provided as \a problem_matrix is assumed to contain
-     * \e H<sup>T</sup>H (only its lower triangular part is taken into
-     * account), while the vectors provided to the solver will be assumed to
-     * contain \e H<sup>T</sup>b.
-     */
-    namespace ICLS {
+namespace MR::Math::ICLS {
 
       template <typename ValueType>
         class Problem { 
@@ -368,12 +325,6 @@ namespace MR
 
 
     }
-
-    /** @} */
-    /** @} */
-
-  }
-}
 
 #endif
 

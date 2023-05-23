@@ -23,9 +23,7 @@
 #include "image_io/gz.h"
 #include "formats/list.h"
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
 
@@ -96,5 +94,4 @@ namespace MR
     }
 
   }
-}
 

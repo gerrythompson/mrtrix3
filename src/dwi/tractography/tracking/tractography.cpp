@@ -17,13 +17,7 @@
 #include "dwi/tractography/tracking/tractography.h"
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace Tracking
+namespace MR::DWI::Tractography::Tracking
       {
 
       using namespace App;
@@ -159,8 +153,5 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 

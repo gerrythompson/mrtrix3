@@ -42,10 +42,7 @@
 "NeuroImage, 2019, 202, 116137"
 
 
-namespace MR
-{
-
-  namespace App
+namespace MR::App
   {
 
     Description DESCRIPTION;
@@ -1428,6 +1425,5 @@ namespace MR
 
 
   }
-}
 
 

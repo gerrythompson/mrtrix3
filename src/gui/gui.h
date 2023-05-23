@@ -26,9 +26,7 @@
 #include "file/config.h"
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
 
     inline QString qstr (const std::string& s) { return QString::fromUtf8 (s.c_str()); }
@@ -55,7 +53,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

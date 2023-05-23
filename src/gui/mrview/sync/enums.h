@@ -17,13 +17,7 @@
 #ifndef __sync_enums_h__
 #define __sync_enums_h__
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Sync
+namespace MR::GUI::MRView::Sync
       {
         /**
         * The type of message being sent between processes
@@ -40,7 +34,4 @@ namespace MR
         };
 
       }
-    }
-  }
-}
 #endif

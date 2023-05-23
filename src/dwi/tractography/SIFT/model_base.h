@@ -51,13 +51,7 @@
 #define SIFT_MODEL_OUTPUT_FIXEL_IMAGES
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace SIFT
+namespace MR::DWI::Tractography::SIFT
       {
 
 
@@ -406,9 +400,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 
 #endif

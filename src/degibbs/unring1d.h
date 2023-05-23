@@ -20,8 +20,7 @@
 #include "math/fft.h"
 
 
-namespace MR {
-  namespace Degibbs {
+namespace MR::Degibbs {
 
 
 
@@ -151,6 +150,5 @@ namespace MR {
 
 
   }
-}
 
 #endif

@@ -23,9 +23,7 @@
 #include "formats/list.h"
 #include "raw.h"
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
     std::unique_ptr<ImageIO::Base> MGH::read (Header& H) const
@@ -77,5 +75,4 @@ namespace MR
     }
 
   }
-}
 

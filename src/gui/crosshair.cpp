@@ -19,9 +19,7 @@
 
 #include "gui/projection.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
 
 
@@ -86,5 +84,4 @@ namespace MR
 
 
   }
-}
 

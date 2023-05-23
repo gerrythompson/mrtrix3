@@ -31,9 +31,7 @@
 #include "header.h"
 #include "formats/list.h"
 
-namespace MR
-{
-  namespace Registration
+namespace MR::Registration
   {
 
     FORCE_INLINE void check_image_output (const std::string& image_name, const Header& reference) {
@@ -108,5 +106,4 @@ namespace MR
     void preload_data(vector<Header>& input, Image<default_type>& images, const vector<MultiContrastSetting>& mc_params);
 
   }
-}
 #endif

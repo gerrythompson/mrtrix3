@@ -29,10 +29,7 @@
 #include "dwi/tractography/connectome/mapped_track.h"
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Connectome {
+namespace MR::DWI::Tractography::Connectome {
 
 
 
@@ -118,9 +115,6 @@ extern template class Matrix<double>;
 
 
 
-}
-}
-}
 }
 
 

@@ -23,11 +23,7 @@
 #include "registration/transform/reorient.h"
 #include "image.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Metric
+namespace MR::Registration::Metric
     {
       //! \cond skip
       namespace {
@@ -261,7 +257,5 @@ namespace MR
 
       };
     }
-  }
-}
 
 #endif

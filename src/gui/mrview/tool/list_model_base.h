@@ -19,13 +19,7 @@
 
 #include "gui/mrview/displayable.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
         class ListModelBase : public QAbstractItemModel
@@ -154,9 +148,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif
 

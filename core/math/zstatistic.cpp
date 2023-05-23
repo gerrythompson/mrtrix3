@@ -27,9 +27,7 @@
 
 
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
 
@@ -369,5 +367,4 @@ namespace MR
 
 
   }
-}
 

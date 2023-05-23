@@ -20,9 +20,7 @@
 #include "mrtrix.h"
 
 
-namespace MR
-{
-  namespace Axes
+namespace MR::Axes
   {
 
 
@@ -106,4 +104,3 @@ namespace MR
 
 
   }
-}

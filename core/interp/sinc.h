@@ -25,9 +25,7 @@
 #define SINC_WINDOW_SIZE 7
 
 
-namespace MR
-{
-  namespace Interp
+namespace MR::Interp
   {
 
     //! \addtogroup interp
@@ -175,7 +173,6 @@ namespace MR
     //! @}
 
   }
-}
 
 #endif
 

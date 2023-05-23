@@ -24,9 +24,7 @@ namespace MR
 {
   class Header;
 
-  namespace File
-  {
-    namespace JSON
+  namespace File::JSON
     {
 
       void load (Header& H, const std::string& path);
@@ -44,7 +42,6 @@ namespace MR
                   const std::string& image_path);
 
     }
-  }
 }
 
 #endif

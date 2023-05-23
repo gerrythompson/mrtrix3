@@ -23,13 +23,7 @@
 #include "gui/mrview/colourmap_button.h"
 #include "gui/mrview/spin_box.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
         class Overlay : public Base, public ColourMapButtonObserver, public DisplayableVisitor
@@ -111,9 +105,6 @@ namespace MR
         };
 
       }
-    }
-  }
-}
 
 #endif
 

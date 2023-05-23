@@ -21,9 +21,7 @@
 #include "header.h"
 #include "image_io/pipe.h"
 
-namespace MR
-{
-  namespace ImageIO
+namespace MR::ImageIO
   {
 
     void Pipe::load (const Header& header, size_t)
@@ -58,6 +56,5 @@ namespace MR
     bool Pipe::delete_piped_images = true;
 
   }
-}
 
 

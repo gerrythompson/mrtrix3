@@ -23,10 +23,7 @@
 #include "dwi/tractography/streamline.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace Resampling {
+namespace MR::DWI::Tractography::Resampling {
 
 
 
@@ -68,9 +65,6 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 #endif
 

@@ -24,8 +24,7 @@
 #include "degibbs/unring1d.h"
 
 
-namespace MR {
-  namespace Degibbs {
+namespace MR::Degibbs {
 
     typedef cdouble value_type;
 
@@ -172,6 +171,5 @@ namespace MR {
 
 
   }
-}
 
 #endif

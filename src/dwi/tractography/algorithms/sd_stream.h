@@ -24,10 +24,7 @@
 #include "dwi/tractography/tracking/types.h"
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Algorithms {
+namespace MR::DWI::Tractography::Algorithms {
 
 using namespace MR::DWI::Tractography::Tracking;
 
@@ -165,9 +162,6 @@ class SDStream : public MethodBase {
 
 };
 
-}
-}
-}
 }
 
 #endif

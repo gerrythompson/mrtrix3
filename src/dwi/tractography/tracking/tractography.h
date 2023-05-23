@@ -26,13 +26,7 @@ namespace MR
 {
   namespace App { class OptionGroup; }
 
-  namespace DWI
-  {
-
-    namespace Tractography
-    {
-
-      namespace Tracking
+  namespace DWI::Tractography::Tracking
       {
 
         namespace Defaults
@@ -68,8 +62,6 @@ namespace MR
         void load_streamline_properties_and_rois (Properties&);
 
       }
-    }
-  }
 }
 
 #endif

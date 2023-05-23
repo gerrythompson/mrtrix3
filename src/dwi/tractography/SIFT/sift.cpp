@@ -17,10 +17,7 @@
 #include "dwi/tractography/SIFT/sift.h"
 #include "math/math.h"
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace SIFT {
+namespace MR::DWI::Tractography::SIFT {
 
 
 
@@ -78,9 +75,6 @@ const OptionGroup SIFTTermOption = OptionGroup ("Options to control when SIFT te
 
 
 
-}
-}
-}
 }
 
 

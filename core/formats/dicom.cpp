@@ -24,9 +24,7 @@
 #include "header.h"
 #include "image_io/base.h"
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
     std::unique_ptr<ImageIO::Base> DICOM::read (Header& H) const
@@ -63,4 +61,3 @@ namespace MR
 
 
   }
-}

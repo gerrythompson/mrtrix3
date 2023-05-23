@@ -28,10 +28,7 @@
 #include "dwi/tractography/GT/particlegrid.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace GT {
+namespace MR::DWI::Tractography::GT {
         
         class InternalEnergyComputer : public EnergyComputer 
         { 
@@ -134,8 +131,5 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 #endif // __gt_internalenergy_h__

@@ -21,9 +21,7 @@
 #include "algo/threaded_copy.h"
 #include "datatype.h"
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
 
     //! convenience function to regrid one Image onto another
@@ -59,7 +57,6 @@ namespace MR
 
     //! @}
   }
-}
 
 #endif
 

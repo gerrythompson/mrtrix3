@@ -21,9 +21,7 @@
 
 #include "types.h"
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
     /** @addtogroup linalg
@@ -58,7 +56,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

@@ -20,9 +20,7 @@
 #include "memory.h"
 #include "file/dicom/series.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       class Patient;
       class Series;
@@ -60,8 +58,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 
 #endif

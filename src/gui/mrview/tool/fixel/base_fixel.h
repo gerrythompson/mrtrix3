@@ -33,13 +33,7 @@
 #include "gui/mrview/tool/fixel/vector_structs.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
         class BaseFixel : public Displayable { 
@@ -327,7 +321,4 @@ namespace MR
           using FixelImage4DType = MR::Image<float>;
           using FixelIndexImageType = MR::Image<uint32_t>;
        }
-    }
-  }
-}
 #endif

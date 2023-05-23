@@ -20,13 +20,7 @@
 #include "gui/opengl/gl.h"
 #include "app.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace GL
-    {
-      namespace Shader
+namespace MR::GUI::GL::Shader
       {
 
         void print_log (bool is_program, const std::string& type_name, GLuint index);
@@ -164,9 +158,6 @@ namespace MR
         };
 
       }
-    }
-  }
-}
 
 #endif
 

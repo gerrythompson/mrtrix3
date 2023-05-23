@@ -25,9 +25,7 @@
 #include "interp/cubic.h"
 #include "filter/reslice.h"
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
 
 
@@ -102,7 +100,6 @@ namespace MR
 
     //! @}
   }
-}
 
 #endif
 

@@ -19,9 +19,7 @@
 #include "image_io/ram.h"
 #include "formats/list.h"
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
     std::unique_ptr<ImageIO::Base> RAM::read (Header& H) const
@@ -74,5 +72,4 @@ namespace MR
 
 
   }
-}
 

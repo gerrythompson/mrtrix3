@@ -24,9 +24,7 @@
 #include "app.h"
 
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
     namespace {
@@ -124,7 +122,6 @@ namespace MR
       return convergence;
     }
   }
-}
 
 
 #endif

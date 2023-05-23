@@ -24,12 +24,7 @@
 #include "gui/mrview/spin_box.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-
-    namespace MRView
+namespace MR::GUI::MRView
     {
       class AdjustButton;
 
@@ -109,8 +104,6 @@ namespace MR
 
       }
     }
-  }
-}
 
 #endif
 

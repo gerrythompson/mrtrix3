@@ -21,9 +21,7 @@
 #include "types.h"
 
 
-namespace MR
-{
-  namespace ColourMap
+namespace MR::ColourMap
   {
 
     class Entry { 
@@ -93,7 +91,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

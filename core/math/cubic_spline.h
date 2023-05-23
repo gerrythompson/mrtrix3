@@ -16,9 +16,7 @@
 
 #ifndef __math_cubic_spline_h__
 #define __math_cubic_spline_h__
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
     enum SplineProcessingType
     {
@@ -153,7 +151,6 @@ namespace MR
     UniformBSpline<T>::uniform_bspline_derivative_basis_mtrx(CubicSpline<T>::cubic_poly_derivative_operator * uniform_bspline_basis_mtrx);
 
   }
-}
 
 
 #endif

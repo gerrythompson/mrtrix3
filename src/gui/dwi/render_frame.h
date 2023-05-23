@@ -29,11 +29,7 @@
 
 #define MAX_LOD 8
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace DWI
+namespace MR::GUI::DWI
     {
 
       class RenderFrame : public GL::Area
@@ -173,8 +169,6 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif
 

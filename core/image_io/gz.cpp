@@ -24,9 +24,7 @@
 
 #define BYTES_PER_ZCALL 524288
 
-namespace MR
-{
-  namespace ImageIO
+namespace MR::ImageIO
   {
 
     void GZ::load (const Header& header, size_t)
@@ -109,6 +107,5 @@ namespace MR
 
 
   }
-}
 
 

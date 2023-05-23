@@ -19,13 +19,7 @@
 
 #include "gui/mrview/mode/slice.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Mode
+namespace MR::GUI::MRView::Mode
       {
         class LightBox : public Slice
         { 
@@ -98,9 +92,6 @@ namespace MR
         };
 
       }
-    }
-  }
-}
 
 
 #endif

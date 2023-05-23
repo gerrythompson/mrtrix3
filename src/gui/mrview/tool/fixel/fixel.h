@@ -24,13 +24,7 @@
 #include "gui/mrview/colourmap_button.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
         class Fixel : public Base, public ColourMapButtonObserver, public DisplayableVisitor
         { 
@@ -119,9 +113,6 @@ namespace MR
             void update_gui_tracking_controls ();
         };
       }
-    }
-  }
-}
 
 #endif
 

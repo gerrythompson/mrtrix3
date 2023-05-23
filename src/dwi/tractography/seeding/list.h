@@ -23,13 +23,7 @@
 #include "dwi/tractography/seeding/base.h"
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace Seeding
+namespace MR::DWI::Tractography::Seeding
       {
 
 
@@ -80,9 +74,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif
 

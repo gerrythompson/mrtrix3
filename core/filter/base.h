@@ -20,9 +20,7 @@
 #include "progressbar.h" // May be needed for any derived classes that make use of the message string
 #include "header.h"
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
     /** \addtogroup Filters
     @{ */
@@ -68,7 +66,6 @@ namespace MR
     };
     //! @}
   }
-}
 
 
 #endif

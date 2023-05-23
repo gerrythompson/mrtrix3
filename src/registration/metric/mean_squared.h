@@ -21,11 +21,7 @@
 #include "registration/metric/linear_base.h"
 #include "transform.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Metric
+namespace MR::Registration::Metric
     {
 
       class MeanSquared : public LinearBase { 
@@ -334,6 +330,4 @@ namespace MR
             Eigen::VectorXd diff_values;
         };
     }
-  }
-}
 #endif

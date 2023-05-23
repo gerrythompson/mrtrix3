@@ -19,11 +19,7 @@
 
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace Dialog
+namespace MR::GUI::Dialog
     {
 
       class OpenGL : public QDialog
@@ -33,8 +29,6 @@ namespace MR
       };
 
     }
-  }
-}
 
 #endif
 

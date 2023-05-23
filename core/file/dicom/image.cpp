@@ -22,9 +22,7 @@
 #include "file/dicom/patient.h"
 #include "file/dicom/csa_entry.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
 
       void Image::parse_item (Element& item, const std::string& dirname)
@@ -679,6 +677,4 @@ namespace MR {
 
 
     }
-  }
-}
 

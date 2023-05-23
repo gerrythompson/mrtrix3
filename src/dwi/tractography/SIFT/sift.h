@@ -21,9 +21,7 @@
 
 namespace MR {
 namespace App { class OptionGroup; }
-namespace DWI {
-namespace Tractography {
-namespace SIFT {
+namespace DWI::Tractography::SIFT {
 
 
 extern const App::OptionGroup SIFTModelOption;
@@ -31,8 +29,6 @@ extern const App::OptionGroup SIFTOutputOption;
 extern const App::OptionGroup SIFTTermOption;
 
 
-}
-}
 }
 }
 

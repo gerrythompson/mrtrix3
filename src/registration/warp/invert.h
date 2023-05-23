@@ -23,11 +23,7 @@
 #include "registration/warp/convert.h"
 #include "transform.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Warp
+namespace MR::Registration::Warp
     {
 
       namespace {
@@ -167,8 +163,6 @@ namespace MR
 
       //! @}
     }
-  }
-}
 
 
 #endif

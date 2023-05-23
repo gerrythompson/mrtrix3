@@ -19,20 +19,13 @@
 
 #include "cmdline_option.h"
 
-namespace MR
-{
-  namespace DWI
-  {
-
-    namespace Tractography
+namespace MR::DWI::Tractography
     {
 
       extern const App::Option TrackWeightsInOption;
       extern const App::Option TrackWeightsOutOption;
 
     }
-  }
-}
 
 #endif
 

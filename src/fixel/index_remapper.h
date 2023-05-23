@@ -24,9 +24,7 @@
 #include "types.h"
 #include "fixel/fixel.h"
 
-namespace MR
-{
-  namespace Fixel
+namespace MR::Fixel
   {
 
 
@@ -65,6 +63,5 @@ namespace MR
 
 
   }
-}
 
 #endif

@@ -16,9 +16,7 @@
 
 #include "gui/cursor.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
 
     QCursor Cursor::pan_crosshair;
@@ -43,5 +41,4 @@ namespace MR
     }
 
   }
-}
 

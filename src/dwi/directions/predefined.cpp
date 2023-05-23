@@ -17,9 +17,7 @@
 #include "dwi/directions/predefined.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Directions {
+namespace MR::DWI::Directions {
 
 
 
@@ -8142,6 +8140,4 @@ namespace MR {
 
 
     }
-  }
-}
 

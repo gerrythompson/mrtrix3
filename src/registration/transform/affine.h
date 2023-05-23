@@ -24,11 +24,7 @@
 
 using namespace MR::Math;
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Transform
+namespace MR::Registration::Transform
     {
       enum TransformProjectionType {rigid_nonsym, affine, affine_nonsym, none};
 
@@ -137,7 +133,5 @@ namespace MR
       };
       //! @}
     }
-  }
-}
 
 #endif

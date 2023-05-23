@@ -20,9 +20,7 @@
 #include "adapter/gradient1D.h"
 #include "transform.h"
 
-namespace MR
-{
-  namespace Adapter
+namespace MR::Adapter
   {
 
     template <class ImageType>
@@ -58,7 +56,6 @@ namespace MR
         Transform transform;
       };
   }
-}
 
 #endif
 

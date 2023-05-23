@@ -18,13 +18,7 @@
 #include "registration/transform/initialiser_helpers.h"
 #include "registration/multi_contrast.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Transform
-    {
-      namespace Init
+namespace MR::Registration::Transform::Init
       {
         void set_centre_via_mass (
           Image<default_type>& im1,
@@ -156,7 +150,4 @@ namespace MR
           Registration::Transform::Init::LinearInitialisationParams& init,
           const vector<MultiContrastSetting>& contrast_settings);
       }
-    }
-  }
-}
 

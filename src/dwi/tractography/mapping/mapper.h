@@ -44,10 +44,7 @@
 
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace Mapping {
+namespace MR::DWI::Tractography::Mapping {
 
 
 
@@ -415,9 +412,6 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 #endif
 

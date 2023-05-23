@@ -22,13 +22,7 @@
 #include "registration/transform/base.h"
 #include "registration/transform/initialiser_helpers.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Transform
-    {
-      namespace Init
+namespace MR::Registration::Transform::Init
       {
         enum InitType {set_centre_mass, set_centre_geometric, mass, geometric, moments, rot_search, none};
         struct LinearInitialisationParams { 
@@ -138,8 +132,5 @@ namespace MR
           Registration::Transform::Init::LinearInitialisationParams& init,
           const vector<MultiContrastSetting>& contrast_settings);
       }
-    }
-  }
-}
 
 #endif

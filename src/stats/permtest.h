@@ -37,11 +37,7 @@
 #define DEFAULT_NUMBER_PERMUTATIONS_NONSTATIONARITY 5000
 
 
-namespace MR
-{
-  namespace Stats
-  {
-    namespace PermTest
+namespace MR::Stats::PermTest
     {
 
 
@@ -147,7 +143,5 @@ namespace MR
       //! @}
 
     }
-  }
-}
 
 #endif

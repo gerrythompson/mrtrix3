@@ -21,10 +21,7 @@
 
 #include "dwi/tractography/properties.h"
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Editing {
+namespace MR::DWI::Tractography::Editing {
 
 
 
@@ -37,9 +34,6 @@ void load_properties (Tractography::Properties&);
 
 
 
-}
-}
-}
 }
 
 #endif

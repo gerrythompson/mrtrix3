@@ -29,13 +29,7 @@
 #include "dwi/tractography/algorithms/calibrator.h"
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace Algorithms
+namespace MR::DWI::Tractography::Algorithms
       {
 
         extern const App::OptionGroup iFOD2Options;
@@ -500,9 +494,6 @@ end_init:
 
 
       }
-    }
-  }
-}
 
 #endif
 

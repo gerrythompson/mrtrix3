@@ -22,11 +22,7 @@
 
 #define ADJUST_BUTTON_DEADZONE_SIZE 8
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
 
       class AdjustButton : public QLineEdit
@@ -117,8 +113,6 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif
 

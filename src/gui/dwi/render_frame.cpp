@@ -21,11 +21,7 @@
 #include "app.h"
 #include "gui/dwi/render_frame.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace DWI
+namespace MR::GUI::DWI
     {
 
       namespace {
@@ -404,5 +400,3 @@ namespace MR
 
 
     }
-  }
-}

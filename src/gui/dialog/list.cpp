@@ -16,11 +16,7 @@
 
 #include "gui/dialog/list.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace Dialog
+namespace MR::GUI::Dialog
     {
 
       QVariant TreeModel::data (const QModelIndex& index, int role) const
@@ -79,8 +75,6 @@ namespace MR
 
 
     }
-  }
-}
 
 
 

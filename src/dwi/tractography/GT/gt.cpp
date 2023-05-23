@@ -17,10 +17,7 @@
 #include "dwi/tractography/GT/gt.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace GT {
+namespace MR::DWI::Tractography::GT {
 
         std::ostream& operator<< (std::ostream& o, Stats const& stats)
         {
@@ -31,7 +28,4 @@ namespace MR {
         }
 
       }
-    }
-  }
-}
 

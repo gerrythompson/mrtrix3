@@ -21,13 +21,7 @@
 #include "gui/mrview/adjust_button.h"
 #include "gui/mrview/tool/view.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Mode
+namespace MR::GUI::MRView::Mode
       {
 
         std::string Volume::Shader::vertex_shader_source (const Displayable&)
@@ -568,9 +562,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 
 

@@ -19,13 +19,7 @@
 #include "mrtrix.h"
 #include "gui/cursor.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Mode
+namespace MR::GUI::MRView::Mode
       {
 
         bool Ortho::show_as_row = false;
@@ -227,9 +221,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 
 

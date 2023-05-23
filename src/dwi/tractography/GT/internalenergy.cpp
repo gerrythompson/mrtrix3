@@ -17,10 +17,7 @@
 #include "dwi/tractography/GT/internalenergy.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace GT {
+namespace MR::DWI::Tractography::GT {
         
         
         double InternalEnergyComputer::stageConnect(const ParticleEnd& pe1, ParticleEnd &pe2)
@@ -106,7 +103,4 @@ namespace MR {
         
         
       }
-    }
-  }
-}
 

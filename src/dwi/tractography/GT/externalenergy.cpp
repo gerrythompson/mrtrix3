@@ -23,10 +23,7 @@
 #include "math/ZSH.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace GT {
+namespace MR::DWI::Tractography::GT {
 
         ExternalEnergyComputer::ExternalEnergyComputer(Stats& stat, const Image<float>& dwimage, const Properties& props)
           : EnergyComputer(stat),
@@ -251,8 +248,5 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 

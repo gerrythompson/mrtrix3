@@ -17,9 +17,7 @@
 #include "fixel/fixel.h"
 #include "version.h"
 
-namespace MR
-{
-  namespace Fixel
+namespace MR::Fixel
   {
 
     const char* format_description =
@@ -28,5 +26,4 @@ namespace MR
       "https://mrtrix.readthedocs.io/en/" MRTRIX_BASE_VERSION "/fixel_based_analysis/fixel_directory_format.html";
 
   }
-}
 

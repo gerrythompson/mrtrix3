@@ -18,9 +18,7 @@
 #include "file/dicom/study.h"
 #include "file/dicom/patient.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       vector<int> Series::count () const
       {
@@ -100,7 +98,5 @@ namespace MR {
 
 
     }
-  }
-}
 
 

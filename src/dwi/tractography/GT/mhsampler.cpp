@@ -19,10 +19,7 @@
 #include "math/math.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace GT {
+namespace MR::DWI::Tractography::GT {
         
         // RUNTIME METHODS --------------------------------------------------------------
         
@@ -298,7 +295,4 @@ namespace MR {
         
 
       }
-    }
-  }
-}
 

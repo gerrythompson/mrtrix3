@@ -24,10 +24,7 @@
 #include "dwi/tractography/connectome/streamline.h"
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Connectome {
+namespace MR::DWI::Tractography::Connectome {
 
 
 
@@ -84,9 +81,6 @@ class Exemplar : private Tractography::Streamline<float>
 
 
 
-}
-}
-}
 }
 
 

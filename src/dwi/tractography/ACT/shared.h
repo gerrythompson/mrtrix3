@@ -21,13 +21,7 @@
 #include "dwi/tractography/ACT/gmwmi.h"
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace ACT
+namespace MR::DWI::Tractography::ACT
       {
 
 
@@ -69,8 +63,5 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif

@@ -18,11 +18,7 @@
 
 #include "debug.h"
 
-namespace MR
-{
-  namespace Surface
-  {
-    namespace FreeSurfer
+namespace MR::Surface::FreeSurfer
     {
 
 
@@ -160,5 +156,3 @@ namespace MR
 
 
     }
-  }
-}

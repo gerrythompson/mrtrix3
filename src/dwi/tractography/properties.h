@@ -28,11 +28,7 @@
 #define TRACTOGRAPHY_FILE_TIMESTAMP_PRECISION 20
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
+namespace MR::DWI::Tractography
     {
 
 
@@ -78,7 +74,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

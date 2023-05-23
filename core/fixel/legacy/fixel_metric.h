@@ -19,12 +19,7 @@
 
 #include "types.h"
 
-namespace MR
-{
-  namespace Fixel
-  {
-
-    namespace Legacy
+namespace MR::Fixel::Legacy
     {
 
 
@@ -51,8 +46,6 @@ namespace MR
       };
 
     }
-  }
-}
 
 #endif
 

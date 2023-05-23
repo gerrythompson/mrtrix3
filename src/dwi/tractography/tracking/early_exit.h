@@ -34,13 +34,7 @@
 #define TCKGEN_EARLY_EXIT_STOP_TESTING_PERCENTAGE 0.20
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace Tracking
+namespace MR::DWI::Tractography::Tracking
       {
 
 
@@ -63,9 +57,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif
 

@@ -19,9 +19,7 @@
 
 #include "adapter/base.h"
 
-namespace MR
-{
-  namespace Adapter
+namespace MR::Adapter
   {
 
     template <class ImageType>
@@ -97,7 +95,6 @@ namespace MR
         vector<value_type> half_derivative_weights;
       };
   }
-}
 
 
 #endif

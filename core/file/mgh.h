@@ -67,9 +67,7 @@ namespace MR
 {
   class Header;
 
-  namespace File
-  {
-    namespace MGH
+  namespace File::MGH
     {
 
       int32_t string_to_tag_ID (const std::string& key);
@@ -996,7 +994,6 @@ namespace MR
         }
 
     }
-  }
 }
 
 #endif

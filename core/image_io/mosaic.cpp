@@ -21,9 +21,7 @@
 #include "header.h"
 #include "image_io/mosaic.h"
 
-namespace MR
-{
-  namespace ImageIO
+namespace MR::ImageIO
   {
 
 
@@ -71,6 +69,5 @@ namespace MR
     void Mosaic::unload (const Header& header) { }
 
   }
-}
 
 

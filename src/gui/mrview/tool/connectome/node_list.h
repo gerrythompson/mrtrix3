@@ -26,11 +26,7 @@
 #include <QTableView>
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
 
       class Window;
@@ -136,8 +132,6 @@ namespace MR
 
       }
     }
-  }
-}
 
 #endif
 

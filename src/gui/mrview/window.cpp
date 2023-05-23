@@ -32,11 +32,7 @@
 #include "gui/mrview/tool/list.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
       using namespace App;
 /*
@@ -2253,5 +2249,3 @@ namespace MR
 
 
     }
-  }
-}

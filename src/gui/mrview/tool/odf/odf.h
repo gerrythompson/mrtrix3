@@ -23,9 +23,7 @@
 #include "gui/mrview/adjust_button.h"
 #include "gui/mrview/spin_box.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
     namespace DWI {
       class Renderer;
@@ -35,9 +33,7 @@ namespace MR
     class LightingDock;
 
 
-    namespace MRView
-    {
-      namespace Tool
+    namespace MRView::Tool
       {
 
         class ODF_Item;
@@ -117,9 +113,7 @@ namespace MR
         };
 
       }
-    }
   }
-}
 
 #endif
 

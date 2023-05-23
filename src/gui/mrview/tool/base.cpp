@@ -17,13 +17,7 @@
 #include "app.h"
 #include "gui/mrview/tool/base.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
         void Dock::closeEvent (QCloseEvent*) { assert (tool); tool->close_event(); }
@@ -66,9 +60,6 @@ namespace MR
         bool CameraInteractor::tilt_event (const ModelViewProjection&) { return false; }
         bool CameraInteractor::rotate_event (const ModelViewProjection&) { return false; }
       }
-    }
-  }
-}
 
 
 

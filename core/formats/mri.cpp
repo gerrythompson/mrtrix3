@@ -45,9 +45,7 @@ contents:              unspecified  ('size' bytes)
 #define MRI_TRANSFORM  0x06
 #define MRI_DWSCHEME   0x07
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
     namespace
@@ -355,7 +353,6 @@ namespace MR
     }
 
   }
-}
 
 
 

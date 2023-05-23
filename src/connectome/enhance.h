@@ -28,9 +28,7 @@
 
 
 
-namespace MR {
-  namespace Connectome {
-    namespace Enhance {
+namespace MR::Connectome::Enhance {
 
 
 
@@ -82,8 +80,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 
 #endif

@@ -16,11 +16,7 @@
 
 #include "stats/cluster.h"
 
-namespace MR
-{
-  namespace Stats
-  {
-    namespace Cluster
+namespace MR::Stats::Cluster
     {
 
 
@@ -38,5 +34,3 @@ namespace MR
 
 
     }
-  }
-}

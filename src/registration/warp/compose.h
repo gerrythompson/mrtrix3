@@ -25,11 +25,7 @@
 #include "registration/warp/helpers.h"
 #include "adapter/extract.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Warp
+namespace MR::Registration::Warp
     {
 
         class ComposeLinearDeformKernel { 
@@ -288,7 +284,5 @@ namespace MR
       }
 
     }
-  }
-}
 
 #endif

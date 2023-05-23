@@ -20,13 +20,7 @@
 #include "app.h"
 #include "gui/mrview/mode/base.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Mode
+namespace MR::GUI::MRView::Mode
       {
 
         class Slice : public Base
@@ -50,9 +44,6 @@ namespace MR
         };
 
       }
-    }
-  }
-}
 
 #endif
 

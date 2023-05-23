@@ -17,11 +17,7 @@
 #include "gui/gui.h"
 #include "gui/dialog/report_exception.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace Dialog
+namespace MR::GUI::Dialog
     {
 
       namespace
@@ -54,7 +50,5 @@ namespace MR
       }
 
     }
-  }
-}
 
 

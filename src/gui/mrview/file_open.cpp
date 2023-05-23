@@ -17,9 +17,7 @@
 #include "gui/mrview/file_open.h"
 #include "gui/mrview/window.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
 
     bool App::event (QEvent *event)
@@ -40,5 +38,4 @@ namespace MR
 
 
   }
-}
 

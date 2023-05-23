@@ -17,9 +17,7 @@
 #include "math/betainc.h"
 
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
 
@@ -111,4 +109,3 @@ namespace MR
 
 
   }
-}

@@ -22,9 +22,7 @@
 #include "interp/cubic.h"
 #include "adapter/jacobian.h"
 
-namespace MR
-{
-  namespace Adapter
+namespace MR::Adapter
   {
 
     //! \addtogroup interp
@@ -132,7 +130,6 @@ namespace MR
     //! @}
 
   }
-}
 
 #endif
 

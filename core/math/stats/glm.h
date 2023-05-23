@@ -28,13 +28,7 @@
 
 #include "misc/bitset.h"
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Stats
-    {
-      namespace GLM
+namespace MR::Math::Stats::GLM
       {
 
 
@@ -467,9 +461,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 
 #endif

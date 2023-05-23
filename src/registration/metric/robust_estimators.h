@@ -25,9 +25,7 @@ namespace MR
       return (T(0) < val) - (val < T(0));
     }
  }
-  namespace Registration
-  {
-    namespace Metric
+  namespace Registration::Metric
     {
       class L1 { 
         public:
@@ -96,6 +94,5 @@ namespace MR
       };
 
     }
-  }
 }
 #endif

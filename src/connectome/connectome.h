@@ -27,8 +27,7 @@
 #include "types.h"
 
 
-namespace MR {
-  namespace Connectome {
+namespace MR::Connectome {
 
 
     using node_t = uint32_t;
@@ -125,7 +124,6 @@ namespace MR {
 
 
   }
-}
 
 
 #endif

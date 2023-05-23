@@ -18,13 +18,7 @@
 #include "gui/mrview/sync/processlock.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Sync
+namespace MR::GUI::MRView::Sync
       {
 
 
@@ -101,6 +95,3 @@ namespace MR
           memLock.release();
         }
       }
-    }
-  }
-}

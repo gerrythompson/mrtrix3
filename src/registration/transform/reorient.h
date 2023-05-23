@@ -23,11 +23,7 @@
 #include "adapter/jacobian.h"
 #include "registration/multi_contrast.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Transform
+namespace MR::Registration::Transform
     {
 
 
@@ -388,7 +384,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

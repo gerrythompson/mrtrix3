@@ -30,11 +30,7 @@
 #include "dwi/tractography/streamline.h"
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
+namespace MR::DWI::Tractography
     {
 
 
@@ -430,8 +426,6 @@ namespace MR
 
 
     }
-  }
-}
 
 
 #endif

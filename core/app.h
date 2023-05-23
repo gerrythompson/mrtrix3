@@ -34,9 +34,7 @@
 extern void usage ();
 extern void run ();
 
-namespace MR
-{
-  namespace App
+namespace MR::App
   {
 
 
@@ -493,8 +491,5 @@ namespace MR
     }
 
   }
-
-  //! @}
-}
 
 #endif

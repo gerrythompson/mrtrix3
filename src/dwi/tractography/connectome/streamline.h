@@ -21,10 +21,7 @@
 #include "dwi/tractography/connectome/connectome.h"
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Connectome {
+namespace MR::DWI::Tractography::Connectome {
 
 
 
@@ -63,9 +60,6 @@ class Streamline_nodelist : public Tractography::Streamline<>
 
 
 
-}
-}
-}
 }
 
 

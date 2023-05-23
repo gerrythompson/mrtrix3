@@ -24,11 +24,7 @@
 #include "filter/reslice.h"
 #include "algo/neighbourhooditerator.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Metric
+namespace MR::Registration::Metric
     {
       template <typename ImageType1, typename ImageType2>
       struct LCCPrecomputeFunctorMasked_Naive { 
@@ -278,6 +274,4 @@ namespace MR
             }
       };
     }
-  }
-}
 #endif

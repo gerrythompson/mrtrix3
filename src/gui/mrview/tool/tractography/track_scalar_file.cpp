@@ -21,13 +21,7 @@
 #include "gui/mrview/tool/tractography/tractogram.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
         TrackScalarFileOptions::TrackScalarFileOptions (Tractography* parent) :
@@ -458,6 +452,3 @@ namespace MR
 
 
       }
-    }
-  }
-}

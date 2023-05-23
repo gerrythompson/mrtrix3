@@ -21,9 +21,7 @@
 #include "surface/freesurfer.h"
 
 
-namespace MR
-{
-  namespace Surface
+namespace MR::Surface
   {
 
 
@@ -131,6 +129,5 @@ namespace MR
 
 
   }
-}
 
 

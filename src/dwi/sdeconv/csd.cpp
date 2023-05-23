@@ -16,11 +16,7 @@
 
 #include "dwi/sdeconv/csd.h"
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace SDeconv
+namespace MR::DWI::SDeconv
     {
 
     using namespace App;
@@ -57,6 +53,4 @@ namespace MR
 
 
     }
-  }
-}
 

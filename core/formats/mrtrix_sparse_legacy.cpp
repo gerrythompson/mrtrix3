@@ -32,9 +32,7 @@
 
 
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
     // extensions are:
@@ -174,4 +172,3 @@ namespace MR
 
 
   }
-}

@@ -24,9 +24,7 @@
 namespace MR
 {
   using namespace MR::Math;
-  namespace Registration
-  {
-    namespace Transform
+  namespace Registration::Transform
     {
       bool AffineUpdate::operator() (Eigen::Matrix<default_type, Eigen::Dynamic, 1>& newx,
           const Eigen::Matrix<default_type, Eigen::Dynamic, 1>& x,
@@ -289,6 +287,5 @@ namespace MR
 
       //! @}
     }
-  }
 }
 

@@ -24,9 +24,7 @@
 #include "types.h"
 
 
-namespace MR
-{
-  namespace File
+namespace MR::File
   {
 
 
@@ -49,7 +47,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

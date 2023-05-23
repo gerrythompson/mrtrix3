@@ -59,9 +59,7 @@
 
 
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       inline std::string format_date (const std::string& date)
       {
@@ -90,8 +88,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 
 #endif

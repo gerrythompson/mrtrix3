@@ -26,9 +26,7 @@
 
 #include "mrtrix.h"
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
     //! random number generator
@@ -118,7 +116,6 @@ namespace MR
         };
 
   }
-}
 
 #endif
 

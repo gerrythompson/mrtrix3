@@ -23,41 +23,7 @@
 #include "datatype.h"
 #include "math/math.h"
 
-namespace MR
-{
-
-  //! Functions to handle the memory layout of images
-  /*! Strides are typically supplied as a symbolic list of increments,
-   * representing the layout of the data in memory. In this symbolic
-   * representation, the actual magnitude of the strides is only important
-   * in that it defines the ordering of the various axes.
-   *
-   * For example, the vector of strides [ 3 -1 -2 ] is valid as a symbolic
-   * representation of a image stored as a stack of sagittal slices. Each
-   * sagittal slice is stored as rows of voxels ordered from anterior to
-   * posterior (i.e. negative y: -1), then stacked superior to inferior (i.e.
-   * negative z: -2). These slices are then stacked from left to right (i.e.
-   * positive x: 3).
-   *
-   * This representation is symbolic since it does not take into account the
-   * size of the Image along each dimension. To be used in practice, these
-   * strides must correspond to the number of intensity values to skip
-   * between adjacent voxels along the respective axis. For the example
-   * above, the image might consists of 128 sagittal slices, each with
-   * dimensions 256x256. The dimensions of the image (as returned by size())
-   * are therefore [ 128 256 256 ]. The actual strides needed to navigate
-   * through the image, given the symbolic strides above, should therefore
-   * be [ 65536 -256 -1 ] (since 256x256 = 65532).
-   *
-   * Note that a stride of zero is treated as undefined or invalid. This can
-   * be used in the symbolic representation to specify that the ordering of
-   * the corresponding axis is not important. A suitable stride will be
-   * allocated to that axis when the image is initialised (this is done
-   * with a call to sanitise()).
-   *
-   * The functions defined in this namespace provide an interface to
-   * manipulate the strides and convert symbolic into actual strides. */
-  namespace Stride
+namespace MR::Stride
   {
 
     using List = vector<ssize_t>;
@@ -425,7 +391,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

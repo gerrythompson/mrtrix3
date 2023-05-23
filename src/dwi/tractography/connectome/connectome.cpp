@@ -22,10 +22,7 @@
 
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Connectome {
+namespace MR::DWI::Tractography::Connectome {
 
 
 
@@ -133,9 +130,6 @@ void setup_metric (Metric& metric, Image<node_t>& nodes_data)
 
 
 
-}
-}
-}
 }
 
 

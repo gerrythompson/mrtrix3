@@ -22,9 +22,7 @@
 #include "math/cubic_spline.h"
 #include "math/least_squares.h"
 
-namespace MR
-{
-  namespace Interp
+namespace MR::Interp
   {
 
     //! \addtogroup interp
@@ -535,7 +533,6 @@ namespace MR
     //! @}
 
   }
-}
 
 #endif
 

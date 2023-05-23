@@ -28,9 +28,7 @@
 #include "file/dicom/patient.h"
 #include "file/dicom/tree.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
 
       std::unique_ptr<MR::ImageIO::Base> dicom_to_mapper (MR::Header& H, vector<std::shared_ptr<Series>>& series)
@@ -427,6 +425,4 @@ namespace MR {
 
 
     }
-  }
-}
 

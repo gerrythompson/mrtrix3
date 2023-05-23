@@ -19,9 +19,7 @@
 #include "adapter/subset.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
+namespace MR::DWI::Tractography {
 
 
     using namespace App;
@@ -125,8 +123,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 
 

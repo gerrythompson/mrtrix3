@@ -24,13 +24,7 @@
 #include "dwi/tractography/streamline.h"
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
       class Connectome;
@@ -204,9 +198,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif
 

@@ -19,10 +19,7 @@
 #include "misc/bitset.h"
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Connectome {
+namespace MR::DWI::Tractography::Connectome {
 
 
 
@@ -310,7 +307,4 @@ bool WriterExtraction::operator() (const Connectome::Streamline_nodelist& in) co
 
 
 
-}
-}
-}
 }

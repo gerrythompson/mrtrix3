@@ -20,9 +20,7 @@
 #include "math/median.h"
 #include "adapter/base.h"
 
-namespace MR
-{
-    namespace Adapter
+namespace MR::Adapter
     {
 
 
@@ -104,7 +102,6 @@ namespace MR
       };
 
   }
-}
 
 
 #endif

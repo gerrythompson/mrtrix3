@@ -19,8 +19,7 @@
 #include <fftw3.h>
 #include "image.h"
 
-namespace MR {
-  namespace Math {
+namespace MR::Math {
 
 
     //! a class to perform an in-place 1D FFT
@@ -126,7 +125,6 @@ namespace MR {
 
 
   }
-}
 
 
 #endif

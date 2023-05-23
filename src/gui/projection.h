@@ -23,9 +23,7 @@
 #include "gui/opengl/font.h"
 #include "gui/opengl/transformation.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
 
     const int TopEdge = 0x00000001;
@@ -283,6 +281,5 @@ namespace MR
 
 
   }
-}
 
 #endif

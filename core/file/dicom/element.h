@@ -25,9 +25,7 @@
 #include "file/mmap.h"
 #include "file/dicom/definitions.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
 
       class Sequence { 
@@ -219,8 +217,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 #endif
 

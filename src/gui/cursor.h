@@ -19,9 +19,7 @@
 
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
     class Cursor
     { 
@@ -40,7 +38,6 @@ namespace MR
     };
 
   }
-}
 
 #endif
 

@@ -20,13 +20,7 @@
 #include "gui/opengl/gl.h"
 #include "progressbar.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace Dialog
-    {
-      namespace ProgressBar
+namespace MR::GUI::Dialog::ProgressBar
       {
 
         void display (const ::MR::ProgressBar& p);
@@ -34,9 +28,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif
 

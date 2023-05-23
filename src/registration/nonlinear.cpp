@@ -16,9 +16,7 @@
 
 #include "registration/nonlinear.h"
 
-namespace MR
-{
-  namespace Registration
+namespace MR::Registration
   {
 
     using namespace App;
@@ -73,5 +71,4 @@ namespace MR
 
 
   }
-}
 

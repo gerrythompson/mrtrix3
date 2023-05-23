@@ -31,11 +31,7 @@
 
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
+namespace MR::DWI::Tractography
     {
 
       namespace Seeding
@@ -102,7 +98,5 @@ namespace MR
 
       }
     }
-  }
-}
 
 #endif

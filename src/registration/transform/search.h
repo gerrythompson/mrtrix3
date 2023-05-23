@@ -45,11 +45,7 @@
 #include "registration/transform/rigid.h"
 #include "file/config.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace RotationSearch
+namespace MR::Registration::RotationSearch
     {
 
       using TrafoType = transform_type;
@@ -345,8 +341,6 @@ namespace MR
             Eigen::Matrix<default_type, Eigen::Dynamic, 1> overlap_it, cost_it;
             vector<transform_type> trafo_it;
           };
-    } // namespace RotationSearch
-  }
-}
+    }
 
 #endif

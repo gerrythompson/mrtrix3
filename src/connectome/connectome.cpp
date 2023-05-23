@@ -21,8 +21,7 @@
 #include "algo/loop.h"
 
 
-namespace MR {
-  namespace Connectome {
+namespace MR::Connectome {
 
 
 
@@ -63,6 +62,5 @@ namespace MR {
 
 
   }
-}
 
 

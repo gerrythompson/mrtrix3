@@ -21,10 +21,7 @@
 #include "dwi/tractography/GT/gt.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace GT {
+namespace MR::DWI::Tractography::GT {
         
         class EnergyComputer
         { 
@@ -117,8 +114,5 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 #endif // __gt_energy_h__

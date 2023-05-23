@@ -34,11 +34,7 @@ namespace MR
     class Options;
   }
 
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+  namespace GUI::MRView::Tool
       {
         class Base;
 
@@ -241,8 +237,6 @@ namespace MR
 
 
       }
-    }
-  }
 }
 
 #endif

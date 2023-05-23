@@ -22,9 +22,7 @@
 #include "filter/smooth.h"
 #include "registration/multi_contrast.h"
 
-namespace MR
-{
-  namespace Registration
+namespace MR::Registration
   {
 
     template <class ImageType>
@@ -91,5 +89,4 @@ namespace MR
       return smoothed;
     }
   }
-}
 #endif

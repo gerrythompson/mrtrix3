@@ -16,11 +16,7 @@
 
 #include "math/bessel.h"
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Bessel
+namespace MR::Math::Bessel
     {
 
       const double coef_aI0[12] = {
@@ -152,8 +148,6 @@ namespace MR
       };
 
     }
-  }
-}
 
 
 

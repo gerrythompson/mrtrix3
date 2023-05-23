@@ -21,13 +21,7 @@
 
 #include "types.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Sync
+namespace MR::GUI::MRView::Sync
       {
         /**
         * Can be used to prevent multiple processes accessing a resource at the
@@ -58,8 +52,5 @@ namespace MR
         };
 
       }
-    }
-  }
-}
 
 #endif // __sync_processlock_h__

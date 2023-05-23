@@ -21,9 +21,7 @@
 
 #include "types.h"
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
     template <typename T> class Hermite
@@ -62,6 +60,5 @@ namespace MR
     };
 
   }
-}
 
 #endif

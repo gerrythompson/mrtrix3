@@ -19,9 +19,7 @@
 
 #include "adapter/base.h"
 
-namespace MR
-{
-  namespace Adapter
+namespace MR::Adapter
   {
 
     template <class ImageType>
@@ -113,7 +111,6 @@ namespace MR
         const bool zero_boundary;
       };
   }
-}
 
 
 #endif

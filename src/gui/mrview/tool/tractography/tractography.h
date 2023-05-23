@@ -24,9 +24,7 @@
 #include "gui/mrview/combo_box_error.h"
 #include "gui/mrview/tool/tractography/track_scalar_file.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
     namespace GL {
       class Lighting;
@@ -34,9 +32,7 @@ namespace MR
 
     class LightingDock;
 
-    namespace MRView
-    {
-      namespace Tool
+    namespace MRView::Tool
       {
 
         extern const char* tractogram_geometry_types[];
@@ -126,9 +122,7 @@ namespace MR
             void update_geometry_type_gui();
         };
       }
-    }
   }
-}
 
 #endif
 

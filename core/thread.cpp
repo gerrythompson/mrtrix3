@@ -22,9 +22,7 @@
 #include "file/config.h"
 #include "thread_queue.h"
 
-namespace MR
-{
-  namespace Thread
+namespace MR::Thread
   {
 
     namespace {
@@ -136,5 +134,4 @@ namespace MR
     std::mutex __Backend::mutex;
 
   }
-}
 

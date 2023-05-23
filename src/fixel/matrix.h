@@ -23,13 +23,7 @@
 #include "file/ofstream.h"
 #include "fixel/index_remapper.h"
 
-namespace MR
-{
-  namespace Fixel
-  {
-
-
-    namespace Matrix
+namespace MR::Fixel::Matrix
     {
 
 
@@ -232,7 +226,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

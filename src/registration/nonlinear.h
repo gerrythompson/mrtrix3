@@ -36,9 +36,7 @@
 #include "math/average_space.h"
 #include "registration/multi_contrast.h"
 
-namespace MR
-{
-  namespace Registration
+namespace MR::Registration
   {
 
     extern const App::OptionGroup nonlinear_options;
@@ -581,6 +579,5 @@ namespace MR
 
     };
   }
-}
 
 #endif

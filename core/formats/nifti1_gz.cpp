@@ -17,9 +17,7 @@
 #include "file/nifti_utils.h"
 #include "formats/list.h"
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
 
@@ -45,5 +43,4 @@ namespace MR
 
 
   }
-}
 

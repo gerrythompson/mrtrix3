@@ -17,13 +17,7 @@
 #ifndef __gui_mrview_tool_fixel_structs_h__
 #define __gui_mrview_tool_fixel_structs_h__
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
         enum FixelColourType { Direction, CValue };
         enum FixelScaleType { Unity, Value };
@@ -96,8 +90,5 @@ namespace MR
         };
 
       }
-    }
-  }
-}
 
 #endif

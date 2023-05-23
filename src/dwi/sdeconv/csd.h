@@ -33,11 +33,7 @@
 #define DEFAULT_CSD_THRESHOLD 0.0
 #define DEFAULT_CSD_NITER 50
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace SDeconv
+namespace MR::DWI::SDeconv
     {
 
     extern const App::OptionGroup CSD_options;
@@ -281,8 +277,6 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif
 

@@ -22,13 +22,7 @@
 #include "gui/color_button.h"
 #include "gui/mrview/adjust_button.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
 
@@ -222,9 +216,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif
 

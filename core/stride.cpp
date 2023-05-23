@@ -17,10 +17,7 @@
 #include "stride.h"
 #include "header.h"
 
-namespace MR
-{
-
-  namespace Stride
+namespace MR::Stride
   {
 
     using namespace App;
@@ -154,6 +151,5 @@ namespace MR
 
 
   }
-}
 
 

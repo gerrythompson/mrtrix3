@@ -17,13 +17,7 @@
 #include "dwi/tractography/SIFT/track_index_range.h"
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace SIFT
+namespace MR::DWI::Tractography::SIFT
       {
 
 
@@ -51,8 +45,5 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 

@@ -22,9 +22,7 @@
 #include "progressbar.h"
 #include "memory.h"
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
     /** \addtogroup Optimisation
     @{ */
@@ -87,7 +85,6 @@ namespace MR
         }
         return f1 < f2 ? x1 : x2;
       }
-  }
   }
 
 #endif

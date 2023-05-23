@@ -24,9 +24,7 @@
 #include "adapter/gaussian1D.h"
 #include "filter/base.h"
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
     /** \addtogroup Filters
     @{ */
@@ -287,7 +285,6 @@ namespace MR
     };
     //! @}
   }
-}
 
 
 #endif

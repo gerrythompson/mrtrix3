@@ -26,13 +26,7 @@
 // raised, but may reduce performance when new IPS are created.
 #define MAX_NO_ALLOWED 32
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Sync
+namespace MR::GUI::MRView::Sync
       {
 
         /**
@@ -65,7 +59,4 @@ namespace MR
         };
 
       }
-    }
-  }
-}
 #endif

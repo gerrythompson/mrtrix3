@@ -21,10 +21,7 @@
 #include "dwi/tractography/resampling/resampling.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace Resampling {
+namespace MR::DWI::Tractography::Resampling {
 
 
 
@@ -66,9 +63,6 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 #endif
 

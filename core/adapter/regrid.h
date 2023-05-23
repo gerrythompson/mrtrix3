@@ -21,9 +21,7 @@
 #include "image.h"
 #include "adapter/base.h"
 
-namespace MR
-{
-  namespace Adapter {
+namespace MR::Adapter {
 
     template <class ImageType>
       class Regrid :
@@ -108,7 +106,6 @@ namespace MR
     };
 
   }
-}
 
 #endif
 

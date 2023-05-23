@@ -18,13 +18,7 @@
 #include "gui/opengl/gl.h"
 #include "gui/mrview/mode/base.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Mode
+namespace MR::GUI::MRView::Mode
       {
 
         Base::Base (int flags) :
@@ -472,9 +466,6 @@ done_painting:
         }
 
       }
-    }
-  }
-}
 
 #undef MODE
 

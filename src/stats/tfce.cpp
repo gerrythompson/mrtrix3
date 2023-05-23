@@ -16,11 +16,7 @@
 
 #include "stats/tfce.h"
 
-namespace MR
-{
-  namespace Stats
-  {
-    namespace TFCE
+namespace MR::Stats::TFCE
     {
 
 
@@ -59,5 +55,3 @@ namespace MR
 
 
     }
-  }
-}

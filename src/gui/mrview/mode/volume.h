@@ -21,11 +21,7 @@
 #include "gui/mrview/mode/base.h"
 #include "gui/opengl/transformation.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
       namespace Tool { class View; }
 
@@ -73,8 +69,6 @@ namespace MR
 
       }
     }
-  }
-}
 
 #endif
 

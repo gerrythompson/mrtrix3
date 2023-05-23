@@ -23,11 +23,7 @@
 #include "math/least_squares.h"
 #include "math/SH.h"
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace ZSH
+namespace MR::Math::ZSH
     {
 
       /** \defgroup zonal_spherical_harmonics Zonal Spherical Harmonics
@@ -294,7 +290,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

@@ -21,11 +21,7 @@
 
 #include "math/chebyshev.h"
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Bessel
+namespace MR::Math::Bessel
     {
 
       extern const double coef_aI0[];
@@ -65,8 +61,6 @@ namespace MR
       }
 
     }
-  }
-}
 
 #endif
 

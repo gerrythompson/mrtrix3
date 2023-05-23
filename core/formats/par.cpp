@@ -32,9 +32,7 @@
 #include "image_io/default.h"
 #include "dwi/gradient.h"
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
 
@@ -322,7 +320,6 @@ namespace MR
     }
 
   }
-}
 
 
 

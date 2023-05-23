@@ -16,9 +16,7 @@
 
 #include "stats/cfe.h"
 
-namespace MR
-{
-  namespace Stats
+namespace MR::Stats
   {
 
 
@@ -85,4 +83,3 @@ namespace MR
 
 
   }
-}

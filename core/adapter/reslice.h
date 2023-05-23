@@ -25,9 +25,7 @@
 #include "interp/base.h"
 #include "interp/nearest.h"
 
-namespace MR
-{
-  namespace Adapter
+namespace MR::Adapter
   {
 
 
@@ -236,7 +234,6 @@ namespace MR
     //! @}
 
   }
-}
 
 #endif
 

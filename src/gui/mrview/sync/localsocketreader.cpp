@@ -17,13 +17,7 @@
 #include "exception.h"
 #include "gui/mrview/sync/localsocketreader.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Sync
+namespace MR::GUI::MRView::Sync
       {
         LocalSocketReader::LocalSocketReader(QLocalSocket* mySocket) : QObject(0)
         {
@@ -88,6 +82,3 @@ namespace MR
         }
 
       }
-    }
-  }
-}

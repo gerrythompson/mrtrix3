@@ -24,11 +24,7 @@
 #include "adapter/replicate.h"
 #include "algo/loop.h"
 
-namespace MR
-{
-  namespace Algo
-  {
-    namespace Histogram
+namespace MR::Algo::Histogram
     {
 
 
@@ -234,7 +230,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

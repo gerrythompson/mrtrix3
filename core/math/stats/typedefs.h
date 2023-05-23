@@ -21,11 +21,7 @@
 
 #include <Eigen/Dense>
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Stats
+namespace MR::Math::Stats
     {
 
 
@@ -38,8 +34,6 @@ namespace MR
 
 
     }
-  }
-}
 
 
 #endif

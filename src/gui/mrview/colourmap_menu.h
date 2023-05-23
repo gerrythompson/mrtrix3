@@ -20,11 +20,7 @@
 #include "colourmap.h"
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
 
 
@@ -39,8 +35,6 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif
 

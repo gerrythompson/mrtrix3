@@ -26,13 +26,7 @@
 #include "registration/transform/base.h"
 #include "registration/multi_contrast.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Transform
-    {
-      namespace Init
+namespace MR::Registration::Transform::Init
       {
         template <class ImageType, class ValueType>
           void get_geometric_centre (const ImageType& image, Eigen::Matrix<ValueType, 3, 1>& centre)
@@ -142,8 +136,5 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif

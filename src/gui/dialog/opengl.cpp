@@ -18,11 +18,7 @@
 #include "gui/dialog/opengl.h"
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace Dialog
+namespace MR::GUI::Dialog
     {
 
       OpenGL::OpenGL (QWidget* parent, const GL::Format& format) : QDialog (parent)
@@ -84,6 +80,4 @@ namespace MR
 
 
     }
-  }
-}
 

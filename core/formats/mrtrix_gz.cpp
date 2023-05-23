@@ -22,9 +22,7 @@
 #include "formats/list.h"
 #include "formats/mrtrix_utils.h"
 
-namespace MR
-{
-    namespace Formats
+namespace MR::Formats
     {
 
 
@@ -106,5 +104,4 @@ namespace MR
       }
 
     }
-}
 

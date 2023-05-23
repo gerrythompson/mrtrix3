@@ -22,11 +22,7 @@
 #include "math/least_squares.h"
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace GL
+namespace MR::GUI::GL
     {
 
 
@@ -246,8 +242,6 @@ namespace MR
       inline mat4 scale (float s) { return scale (s,s,s); }
 
     }
-  }
-}
 
 #endif
 

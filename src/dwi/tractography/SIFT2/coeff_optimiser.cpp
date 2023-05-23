@@ -23,10 +23,7 @@
 
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace SIFT2 {
+namespace MR::DWI::Tractography::SIFT2 {
 
 
 
@@ -380,9 +377,6 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 
 

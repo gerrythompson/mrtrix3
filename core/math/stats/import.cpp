@@ -16,11 +16,7 @@
 
 #include "math/stats/import.h"
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Stats
+namespace MR::Math::Stats
     {
 
 
@@ -62,6 +58,4 @@ namespace MR
 
 
     }
-  }
-}
 

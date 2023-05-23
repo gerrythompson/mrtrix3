@@ -31,11 +31,7 @@
 #define DEFAULT_NUMBER_SHUFFLES_NONSTATIONARITY 5000
 
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Stats
+namespace MR::Math::Stats
     {
 
 
@@ -156,7 +152,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

@@ -22,12 +22,7 @@
 #include "algo/loop.h"
 #include "transform.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-
-    namespace Warp
+namespace MR::Registration::Warp
     {
 
       template <class ImageType>
@@ -50,7 +45,5 @@ namespace MR
         ThreadedLoop (input, 0, 3).run (kernel, input, output);
       }
     }
-  }
-}
 
 #endif

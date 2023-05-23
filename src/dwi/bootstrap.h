@@ -20,8 +20,7 @@
 #include "adapter/base.h"
 
 
-namespace MR {
-  namespace DWI {
+namespace MR::DWI {
 
 
     template <class ImageType, class Functor, size_t NUM_VOX_PER_CHUNK = 256> 
@@ -122,7 +121,6 @@ namespace MR {
     };
 
   }
-}
 
 #endif
 

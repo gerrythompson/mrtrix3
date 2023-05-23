@@ -27,9 +27,7 @@
 #include "image.h"
 #include "algo/copy.h"
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
     /** \addtogroup Filters
     @{ */
@@ -180,7 +178,6 @@ namespace MR
     };
     //! @}
   }
-}
 
 
 #endif

@@ -25,11 +25,7 @@
 
 #include "math/math.h"
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Sphere
+namespace MR::Math::Sphere
     {
 
 
@@ -131,7 +127,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

@@ -21,9 +21,7 @@
 #include "gui/opengl/shader.h"
 #include "colourmap.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
     class Projection;
 
@@ -103,7 +101,6 @@ namespace MR
 
     }
   }
-}
 
 #endif
 

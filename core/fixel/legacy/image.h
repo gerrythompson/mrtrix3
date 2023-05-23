@@ -30,12 +30,7 @@
 #endif
 
 
-namespace MR
-{
-
-  namespace Fixel
-  {
-    namespace Legacy
+namespace MR::Fixel::Legacy
     {
       template <typename DataType>
         class Value { 
@@ -148,8 +143,6 @@ namespace MR
       };
 
     }
-  }
-}
 
 #endif
 

@@ -23,13 +23,7 @@
 #include "gui/mrview/tool/roi_editor/item.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
             
@@ -53,9 +47,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif
 

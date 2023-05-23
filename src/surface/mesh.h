@@ -32,9 +32,7 @@
 
 
 
-namespace MR
-{
-  namespace Surface
+namespace MR::Surface
   {
 
 
@@ -194,7 +192,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

@@ -18,11 +18,7 @@
 
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
 
       Displayable::Displayable (const std::string& filename) :
@@ -66,7 +62,5 @@ namespace MR
       }
 
     }
-  }
-}
 
 

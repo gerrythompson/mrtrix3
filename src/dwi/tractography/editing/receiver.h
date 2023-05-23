@@ -28,10 +28,7 @@
 #include "dwi/tractography/streamline.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace Editing {
+namespace MR::DWI::Tractography::Editing {
 
 
 
@@ -79,8 +76,5 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 #endif

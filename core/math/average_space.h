@@ -24,13 +24,10 @@
 #include "image.h"
 #include "debug.h"
 
-namespace MR
-{
-   namespace Math
+namespace MR::Math
    {
       double matrix_average (vector<Eigen::MatrixXd> const &mat_in, Eigen::MatrixXd& mat_avg, bool verbose = false);
    }
- }
 
  namespace MR {
 

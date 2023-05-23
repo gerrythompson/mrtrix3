@@ -17,11 +17,7 @@
 #include "gui/gui.h"
 #include "gui/mrview/colourmap_menu.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
 
 
@@ -62,6 +58,4 @@ namespace MR
 
 
     }
-  }
-}
 

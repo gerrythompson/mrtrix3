@@ -25,11 +25,7 @@
 #include "misc/bitset.h"
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
+namespace MR::DWI::Tractography
     {
       class Properties;
 
@@ -277,7 +273,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

@@ -29,10 +29,7 @@
 #include "dwi/tractography/mapping/twi_stats.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace Mapping {
+namespace MR::DWI::Tractography::Mapping {
 
 
 
@@ -224,9 +221,6 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 #endif
 

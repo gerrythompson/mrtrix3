@@ -17,13 +17,7 @@
 #include "dwi/tractography/seeding/gmwmi.h"
 #include "dwi/tractography/rng.h"
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace Seeding
+namespace MR::DWI::Tractography::Seeding
       {
 
 
@@ -75,8 +69,5 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 

@@ -42,13 +42,7 @@
 
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace Tracking
+namespace MR::DWI::Tractography::Tracking
       {
 
 
@@ -591,9 +585,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif
 

@@ -25,9 +25,7 @@
 #include "interp/base.h"
 
 
-namespace MR
-{
-  namespace Interp
+namespace MR::Interp
   {
 
     //! \addtogroup interp
@@ -593,6 +591,5 @@ namespace MR
     //! @}
 
   }
-}
 
 #endif

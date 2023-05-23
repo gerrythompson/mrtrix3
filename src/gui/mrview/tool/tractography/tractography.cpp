@@ -25,13 +25,7 @@
 #include "gui/lighting_dock.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
         const char* tractogram_geometry_types[] = { "pseudotubes", "lines", "points", nullptr };
 
@@ -1122,9 +1116,6 @@ namespace MR
         return false;
         }
       }
-    }
-  }
-}
 
 
 

@@ -31,9 +31,7 @@ namespace MR
 
   namespace App { class OptionGroup; }
 
-  namespace DWI
-  {
-    namespace Tractography
+  namespace DWI::Tractography
     {
 
       class Properties;
@@ -51,7 +49,6 @@ namespace MR
 
       }
     }
-  }
 }
 
 #endif

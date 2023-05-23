@@ -17,9 +17,7 @@
 
 #include "fixel/index_remapper.h"
 
-namespace MR
-{
-  namespace Fixel
+namespace MR::Fixel
   {
 
 
@@ -62,4 +60,3 @@ namespace MR
 
 
   }
-}

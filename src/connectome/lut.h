@@ -27,8 +27,7 @@
 
 
 
-namespace MR {
-namespace Connectome {
+namespace MR::Connectome {
 
 
 
@@ -126,7 +125,6 @@ vector<node_t> get_lut_mapping (const LUT&, const LUT&);
 
 
 
-}
 }
 
 

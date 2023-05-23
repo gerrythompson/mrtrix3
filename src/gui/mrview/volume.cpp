@@ -19,11 +19,7 @@
 #include "gui/mrview/window.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
 
 
@@ -59,7 +55,5 @@ namespace MR
 
 
     }
-  }
-}
 
 

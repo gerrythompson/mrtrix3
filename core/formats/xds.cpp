@@ -22,9 +22,7 @@
 #include "formats/list.h"
 #include "image_io/default.h"
 
-namespace MR
-{
-    namespace Formats
+namespace MR::Formats
     {
 
       std::unique_ptr<ImageIO::Base> XDS::read (Header& H) const
@@ -141,5 +139,4 @@ namespace MR
       }
 
     }
-}
 

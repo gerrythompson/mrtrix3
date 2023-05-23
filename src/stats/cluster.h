@@ -23,11 +23,7 @@
 #include "stats/tfce.h"
 #include "stats/enhance.h"
 
-namespace MR
-{
-  namespace Stats
-  {
-    namespace Cluster
+namespace MR::Stats::Cluster
     {
 
 
@@ -61,7 +57,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

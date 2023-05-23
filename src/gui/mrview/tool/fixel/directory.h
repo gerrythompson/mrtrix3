@@ -19,13 +19,7 @@
 
 #include "gui/mrview/tool/fixel/base_fixel.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
         class Directory : public FixelType<FixelIndexImageType>
         { 
@@ -46,8 +40,5 @@ namespace MR
             void lazy_load_fixel_value_file (const std::string& key) const;
         };
       }
-    }
-  }
-}
 
 #endif

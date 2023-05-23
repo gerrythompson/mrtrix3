@@ -28,9 +28,7 @@ namespace MR
 {
   class Header;
 
-  namespace File
-  {
-    namespace NIfTI
+  namespace File::NIfTI
     {
       extern bool right_left_warning_issued;
 
@@ -49,7 +47,6 @@ namespace MR
       std::string get_json_path (const std::string & nifti_path);
 
     }
-  }
 }
 
 #endif

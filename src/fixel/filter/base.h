@@ -18,11 +18,7 @@
 #ifndef __fixel_filter_base_h__
 #define __fixel_filter_base_h__
 
-namespace MR
-{
-  namespace Fixel
-  {
-    namespace Filter
+namespace MR::Fixel::Filter
     {
 
       /*! A base class for defining fixel data filters.
@@ -60,8 +56,6 @@ namespace MR
 
 
     }
-  }
-}
 
 
 #endif

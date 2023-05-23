@@ -33,13 +33,7 @@
 
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace Algorithms
+namespace MR::DWI::Tractography::Algorithms
       {
 
 
@@ -190,9 +184,6 @@ namespace MR
     };
 
       }
-    }
-  }
-}
 
 #endif
 

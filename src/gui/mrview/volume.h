@@ -25,9 +25,7 @@
 #include "gui/mrview/displayable.h"
 
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
     class Projection;
 
@@ -195,7 +193,6 @@ namespace MR
 
     }
   }
-}
 
 #endif
 

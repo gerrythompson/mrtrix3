@@ -18,9 +18,7 @@
 
 #include "math/math.h"
 
-namespace MR {
-  namespace DWI {
-    namespace Directions {
+namespace MR::DWI::Directions {
 
       Eigen::MatrixXd load_spherical (const std::string& filename)
       {
@@ -56,6 +54,4 @@ namespace MR {
       }
 
     }
-  }
-}
 

@@ -20,9 +20,7 @@
 
 #include <string>
 
-namespace MR
-{
-  namespace Fixel
+namespace MR::Fixel
   {
 
 
@@ -38,6 +36,5 @@ namespace MR
 
 
   }
-}
 
 #endif

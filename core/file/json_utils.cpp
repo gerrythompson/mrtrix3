@@ -28,11 +28,7 @@
 #include "types.h"
 #include "file/ofstream.h"
 
-namespace MR
-{
-  namespace File
-  {
-    namespace JSON
+namespace MR::File::JSON
     {
 
 
@@ -307,5 +303,3 @@ namespace MR
 
 
     }
-  }
-}

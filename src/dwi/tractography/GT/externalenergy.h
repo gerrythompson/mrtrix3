@@ -26,10 +26,7 @@
 #include "dwi/tractography/GT/energy.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace GT {
+namespace MR::DWI::Tractography::GT {
         
         class ExternalEnergyComputer : public EnergyComputer
         { 
@@ -111,8 +108,5 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 #endif // __gt_externalenergy_h__

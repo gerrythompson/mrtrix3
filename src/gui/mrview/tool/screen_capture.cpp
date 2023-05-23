@@ -25,13 +25,7 @@
 #include "gui/opengl/transformation.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
         Capture::Capture (Dock* parent) :
@@ -504,9 +498,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 
 

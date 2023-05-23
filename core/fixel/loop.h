@@ -20,9 +20,7 @@
 #include "fixel/fixel.h"
 #include "formats/mrtrix_utils.h"
 
-namespace MR
-{
-  namespace Fixel {
+namespace MR::Fixel {
 
 
     namespace {
@@ -73,6 +71,5 @@ namespace MR
         return { num_fixels, offset };
       }
   }
-}
 
 #endif

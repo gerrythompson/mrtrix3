@@ -16,11 +16,7 @@
 
 #include "dwi/tractography/weights.h"
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
+namespace MR::DWI::Tractography
     {
 
       using namespace App;
@@ -34,7 +30,5 @@ namespace MR
           + Argument ("path").type_file_out();
 
     }
-  }
-}
 
 

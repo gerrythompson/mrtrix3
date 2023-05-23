@@ -25,9 +25,7 @@
 
 
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
 
     /** \addtogroup Filters
@@ -112,7 +110,6 @@ namespace MR
     };
     //! @}
   }
-}
 
 
 

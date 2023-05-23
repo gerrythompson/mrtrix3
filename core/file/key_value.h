@@ -21,9 +21,7 @@
 #include "mrtrix.h"
 #include "types.h"
 
-namespace MR
-{
-  namespace File
+namespace MR::File
   {
 
     class OFStream;
@@ -73,7 +71,6 @@ namespace MR
 
     }
   }
-}
 
 #endif
 

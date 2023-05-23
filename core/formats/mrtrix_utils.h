@@ -28,9 +28,7 @@
 
 
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
 
@@ -186,7 +184,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

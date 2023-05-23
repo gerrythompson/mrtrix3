@@ -21,9 +21,7 @@
 
 #include "types.h"
 
-namespace MR
-{
-  namespace File
+namespace MR::File
   {
 
     class Entry { 
@@ -50,7 +48,6 @@ namespace MR
       return stream;
     }
   }
-}
 
 #endif
 

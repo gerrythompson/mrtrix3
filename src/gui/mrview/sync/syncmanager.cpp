@@ -17,13 +17,7 @@
 #include "gui/mrview/window.h"
 #include "gui/mrview/sync/syncmanager.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Sync
+namespace MR::GUI::MRView::Sync
       {
         SyncManager::SyncManager() : QObject(0)
         {
@@ -170,6 +164,3 @@ namespace MR
         }
 
       }
-    }
-  }
-}

@@ -29,11 +29,7 @@
 #include "dwi/tractography/mapping/voxel.h"
 #include "dwi/tractography/streamline.h"
 
-namespace MR
-{
-  namespace Fixel
-  {
-    namespace Matrix
+namespace MR::Fixel::Matrix
     {
 
 
@@ -445,5 +441,3 @@ namespace MR
 
 
     }
-  }
-}

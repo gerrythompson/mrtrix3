@@ -16,9 +16,7 @@
 
 #include "registration/multi_contrast.h"
 
-namespace MR
-{
-  namespace Registration
+namespace MR::Registration
   {
 
     class CopyFunctor4D { 
@@ -109,4 +107,3 @@ namespace MR
     }
 
   }
-}

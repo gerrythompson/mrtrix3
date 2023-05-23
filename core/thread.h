@@ -53,9 +53,7 @@
  * \sa Thread::run_queue()
  */
 
-namespace MR
-{
-  namespace Thread
+namespace MR::Thread
   {
 
     class __Backend { 
@@ -378,7 +376,6 @@ namespace MR
     /** @} */
     /** @} */
   }
-}
 
 #endif
 

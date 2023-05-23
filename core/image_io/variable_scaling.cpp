@@ -21,9 +21,7 @@
 #include "header.h"
 #include "image_io/variable_scaling.h"
 
-namespace MR
-{
-  namespace ImageIO
+namespace MR::ImageIO
   {
 
 
@@ -64,6 +62,5 @@ namespace MR
     void VariableScaling::unload (const Header& header) { }
 
   }
-}
 
 

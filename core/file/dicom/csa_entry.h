@@ -22,9 +22,7 @@
 #include "types.h"
 #include "file/dicom/element.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
         class CSAEntry { 
           public:
@@ -174,8 +172,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 #endif
 

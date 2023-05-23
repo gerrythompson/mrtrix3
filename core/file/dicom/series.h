@@ -21,9 +21,7 @@
 #include "progressbar.h"
 #include "file/dicom/image.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       class Study;
       class Image;
@@ -67,8 +65,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 
 #endif

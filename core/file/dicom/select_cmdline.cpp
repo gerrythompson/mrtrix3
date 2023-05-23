@@ -20,9 +20,7 @@
 #include "file/dicom/patient.h"
 #include "file/dicom/tree.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       vector<std::shared_ptr<Series>> select_cmdline (const Tree& tree)
       {
@@ -222,6 +220,4 @@ namespace MR {
 
 
     }
-  }
-}
 

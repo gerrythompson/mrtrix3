@@ -20,9 +20,7 @@
 
 
 
-namespace MR
-{
-  namespace DWI
+namespace MR::DWI
   {
 
     const App::OptionGroup ShellsOption = App::OptionGroup ("DW shell selection options")
@@ -406,6 +404,5 @@ namespace MR
 
 
   }
-}
 
 

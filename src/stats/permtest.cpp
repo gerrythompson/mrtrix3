@@ -16,11 +16,7 @@
 
 #include "stats/permtest.h"
 
-namespace MR
-{
-  namespace Stats
-  {
-    namespace PermTest
+namespace MR::Stats::PermTest
     {
 
 
@@ -240,6 +236,4 @@ namespace MR
 
 
     }
-  }
-}
 

@@ -17,13 +17,7 @@
 #include "dwi/tractography/tracking/write_kernel.h"
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace Tracking
+namespace MR::DWI::Tractography::Tracking
       {
 
 
@@ -52,7 +46,4 @@ namespace MR
 
 
       }
-    }
-  }
-}
 

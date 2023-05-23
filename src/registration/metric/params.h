@@ -23,11 +23,7 @@
 #include "adapter/reslice.h"
 #include "registration/multi_contrast.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Metric
+namespace MR::Registration::Metric
     {
 
       template <class TransformType,
@@ -257,7 +253,5 @@ namespace MR
           Eigen::Matrix<default_type, Eigen::Dynamic, 1> mc_weights;
       };
     }
-  }
-}
 
 #endif

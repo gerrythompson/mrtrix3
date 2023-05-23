@@ -27,9 +27,7 @@
 
 
 
-namespace MR
-{
-  namespace File
+namespace MR::File
   {
 
     KeyValues Config::config;
@@ -156,5 +154,4 @@ namespace MR
 
 
   }
-}
 

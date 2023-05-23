@@ -29,13 +29,7 @@
 #include "gui/mrview/tool/odf/odf.h"
 #include "gui/mrview/tool/odf/preview.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
 
@@ -935,6 +929,3 @@ namespace MR
 
 
       }
-    }
-  }
-}

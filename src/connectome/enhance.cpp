@@ -22,9 +22,7 @@
 #include "misc/bitset.h"
 
 
-namespace MR {
-  namespace Connectome {
-    namespace Enhance {
+namespace MR::Connectome::Enhance {
 
 
 
@@ -101,8 +99,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 
 

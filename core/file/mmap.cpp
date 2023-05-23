@@ -39,9 +39,7 @@
 
 #include "debug.h"
 
-namespace MR
-{
-  namespace File
+namespace MR::File
   {
 
     MMap::MMap (const Entry& entry, bool readwrite, bool preload, int64_t mapped_size) :
@@ -241,6 +239,5 @@ namespace MR
 
 
   }
-}
 
 

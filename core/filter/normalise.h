@@ -22,9 +22,7 @@
 #include "adapter/normalise3D.h"
 #include "filter/base.h"
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
     /** \addtogroup Filters
     @{ */
@@ -96,7 +94,6 @@ namespace MR
     };
     //! @}
   }
-}
 
 
 #endif

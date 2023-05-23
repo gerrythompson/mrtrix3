@@ -25,11 +25,7 @@
 #include "gui/mrview/tool/connectome/file_data_vector.h"
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
 
       class Window;
@@ -102,8 +98,6 @@ namespace MR
 
       }
     }
-  }
-}
 
 #endif
 

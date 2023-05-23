@@ -52,9 +52,7 @@
 #endif
 
 
-namespace MR
-{
-  namespace Path
+namespace MR::Path
   {
 
     inline std::string basename (const std::string& name)
@@ -223,7 +221,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

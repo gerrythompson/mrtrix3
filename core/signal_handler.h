@@ -19,9 +19,7 @@
 
 #include <string>
 
-namespace MR
-{
-  namespace SignalHandler
+namespace MR::SignalHandler
   {
     //! the type of function expected for on_signal()
     using cleanup_function_type = void(*)();
@@ -36,6 +34,5 @@ namespace MR
     //! unmark the file from deletion
     void unmark_file_for_deletion (const std::string& filename);
   }
-}
 
 #endif

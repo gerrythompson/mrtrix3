@@ -26,9 +26,7 @@
 
 
 
-namespace MR {
-  namespace DWI {
-    namespace Directions {
+namespace MR::DWI::Directions {
 
 
 
@@ -59,7 +57,5 @@ namespace MR {
 
 
     }
-  }
-}
 
 #endif

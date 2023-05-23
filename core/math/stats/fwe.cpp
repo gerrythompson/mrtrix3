@@ -20,11 +20,7 @@
 #include <algorithm>
 #include <types.h>
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Stats
+namespace MR::Math::Stats
     {
 
 
@@ -84,5 +80,3 @@ namespace MR
 
 
     }
-  }
-}

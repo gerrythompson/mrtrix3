@@ -27,11 +27,7 @@
 #include "surface/utils.h"
 #include "surface/filter/vertex_transform.h"
 
-namespace MR
-{
-  namespace Surface
-  {
-    namespace Algo
+namespace MR::Surface::Algo
     {
 
 
@@ -559,7 +555,5 @@ namespace MR
 
 
     }
-  }
-}
 
 

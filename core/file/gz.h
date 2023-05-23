@@ -31,9 +31,7 @@
 #include "exception.h"
 #include "file/path.h"
 
-namespace MR
-{
-  namespace File
+namespace MR::File
   {
 
     class GZ { 
@@ -171,7 +169,6 @@ namespace MR
     };
 
   }
-}
 
 #endif
 

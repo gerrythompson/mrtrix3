@@ -18,9 +18,7 @@
 #include "file/dicom/study.h"
 #include "file/dicom/series.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       namespace {
         bool series_time_mismatch_warning_issued = false;
@@ -112,7 +110,5 @@ namespace MR {
 
 
     }
-  }
-}
 
 

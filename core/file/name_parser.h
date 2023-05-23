@@ -23,9 +23,7 @@
 #include "memory.h"
 #include "file/path.h"
 
-namespace MR
-{
-  namespace File
+namespace MR::File
   {
 
     //! a class to interpret numbered filenames
@@ -200,7 +198,6 @@ namespace MR
     };
 
   }
-}
 
 #endif
 

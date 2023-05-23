@@ -27,11 +27,7 @@
 #include "surface/scalar.h"
 #include "surface/types.h"
 
-namespace MR
-{
-  namespace Surface
-  {
-    namespace FreeSurfer
+namespace MR::Surface::FreeSurfer
     {
 
 
@@ -67,8 +63,6 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif
 

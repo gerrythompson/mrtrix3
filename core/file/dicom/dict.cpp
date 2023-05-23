@@ -16,9 +16,7 @@
 
 #include "file/dicom/element.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       std::unordered_map<uint32_t, const char*> Element::dict;
 
@@ -3716,6 +3714,4 @@ namespace MR {
       }
 
     }
-  }
-}
 

@@ -17,9 +17,7 @@
 #include "image_io/base.h"
 #include "header.h"
 
-namespace MR
-{
-  namespace ImageIO
+namespace MR::ImageIO
   {
 
 
@@ -57,5 +55,4 @@ namespace MR
 
 
   }
-}
 

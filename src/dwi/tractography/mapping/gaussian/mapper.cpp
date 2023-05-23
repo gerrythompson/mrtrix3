@@ -17,11 +17,7 @@
 #include "dwi/tractography/mapping/gaussian/mapper.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace Mapping {
-        namespace Gaussian {
+namespace MR::DWI::Tractography::Mapping::Gaussian {
 
 
 
@@ -87,10 +83,6 @@ namespace MR {
 
 
         }
-      }
-    }
-  }
-}
 
 
 

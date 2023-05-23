@@ -26,13 +26,7 @@
 
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace Algorithms
+namespace MR::DWI::Tractography::Algorithms
       {
 
         extern const App::OptionGroup iFODOptions;
@@ -282,9 +276,6 @@ namespace MR
     };
 
       }
-    }
-  }
-}
 
 #endif
 

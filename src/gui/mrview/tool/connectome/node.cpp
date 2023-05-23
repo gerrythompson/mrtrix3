@@ -21,13 +21,7 @@
 #include "types.h"
 #include "gui/mrview/window.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
 
@@ -168,9 +162,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 
 

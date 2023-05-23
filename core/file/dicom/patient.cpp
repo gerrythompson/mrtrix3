@@ -18,9 +18,7 @@
 #include "file/dicom/study.h"
 #include "file/dicom/series.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       namespace {
         bool mismatched_UID_time_warning_issued = false;
@@ -84,7 +82,5 @@ namespace MR {
       }
 
     }
-  }
-}
 
 

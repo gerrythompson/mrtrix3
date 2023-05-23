@@ -25,11 +25,7 @@
 #include "file/config.h"
 #include "registration/transform/convergence_check.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Transform
+namespace MR::Registration::Transform
     {
       template <class ValueType>
       inline void param_mat2vec (const Eigen::Matrix<ValueType, 3, 4, Eigen::RowMajor>& transformation_matrix,
@@ -287,7 +283,5 @@ namespace MR
       };
       //! @}
     }
-  }
-}
 
 #endif

@@ -23,11 +23,7 @@
 #define MAX_DIR_CHANGE 0.2
 #define ANGLE_TOLERANCE 1e-4
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace SH
+namespace MR::Math::SH
     {
 
       /** \defgroup spherical_harmonics Spherical Harmonics
@@ -752,7 +748,5 @@ namespace MR
       /** @} */
 
     }
-  }
-}
 
 #endif

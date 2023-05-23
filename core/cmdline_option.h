@@ -28,9 +28,7 @@
 #include "mrtrix.h"
 #include "types.h"
 
-namespace MR
-{
-  namespace App
+namespace MR::App
   {
 
   /*! \defgroup CmdParse Command-Line Parsing
@@ -445,8 +443,5 @@ namespace MR
 
 
   }
-
-  //! @}
-}
 
 #endif

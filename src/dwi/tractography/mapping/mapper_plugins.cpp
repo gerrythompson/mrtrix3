@@ -19,10 +19,7 @@
 #include "image_helpers.h"
 #include "algo/threaded_loop.h"
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace Mapping {
+namespace MR::DWI::Tractography::Mapping {
 
 
 
@@ -286,9 +283,6 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 
 

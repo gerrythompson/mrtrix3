@@ -24,11 +24,7 @@
 #include "fixel/helpers.h"
 #include "misc/bitset.h"
 
-namespace MR
-{
-  namespace Fixel
-  {
-    namespace Filter
+namespace MR::Fixel::Filter
     {
 
 
@@ -111,6 +107,4 @@ namespace MR
 
 
     }
-  }
-}
 

@@ -19,11 +19,7 @@
 
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace GL
+namespace MR::GUI::GL
     {
 
       class Lighting : public QObject
@@ -53,8 +49,6 @@ namespace MR
       };
 
     }
-  }
-}
 
 #endif
 

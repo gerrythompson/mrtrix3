@@ -20,9 +20,7 @@
 #include <functional>
 #include <limits>
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
 
@@ -44,6 +42,5 @@ namespace MR
 
 
   }
-}
 
 #endif

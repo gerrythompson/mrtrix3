@@ -19,9 +19,7 @@
 
 
 
-namespace MR
-{
-  namespace ImageIO
+namespace MR::ImageIO
   {
 
 
@@ -182,6 +180,5 @@ namespace MR
 
 
   }
-}
 
 

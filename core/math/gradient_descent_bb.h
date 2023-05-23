@@ -25,9 +25,7 @@
 #include <fstream>
 #include "math/check_gradient.h"
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
     //! \addtogroup Optimisation
@@ -230,6 +228,5 @@ namespace MR
       };
     //! @}
   }
-}
 
 #endif

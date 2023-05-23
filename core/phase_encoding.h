@@ -28,9 +28,7 @@
 
 
 
-namespace MR
-{
-  namespace PhaseEncoding
+namespace MR::PhaseEncoding
   {
 
 
@@ -330,7 +328,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

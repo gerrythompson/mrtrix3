@@ -20,9 +20,7 @@
 #include "gui/color_button.h"
 #include "gui/lighting_dock.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
     LightingSettings::LightingSettings (QWidget* parent, GL::Lighting& lighting) :
       QFrame (parent),
@@ -131,4 +129,3 @@ namespace MR
       setWidget(settings);
     }
   }
-}

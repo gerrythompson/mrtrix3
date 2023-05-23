@@ -21,11 +21,7 @@
 #include "registration/metric/robust_estimators.h"
 #include "registration/metric/linear_base.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Metric
+namespace MR::Registration::Metric
     {
       template<class Estimator = L2>
         class DifferenceRobust : public LinearBase { 
@@ -148,6 +144,4 @@ namespace MR
             Eigen::Matrix<typename Im2Type::value_type, Eigen::Dynamic, 1> im2_values;
         };
     }
-  }
-}
 #endif

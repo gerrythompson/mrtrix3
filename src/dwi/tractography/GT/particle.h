@@ -21,10 +21,7 @@
 
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace GT {
+namespace MR::DWI::Tractography::GT {
         
         using Point_t = Eigen::Vector3f;
         
@@ -234,8 +231,5 @@ namespace MR {
         
         
       }
-    }
-  }
-}
 
 #endif // __gt_particle_h__

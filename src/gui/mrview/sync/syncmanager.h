@@ -19,13 +19,7 @@
 #include "gui/mrview/sync/enums.h"
 #include "gui/mrview/sync/interprocesscommunicator.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Sync
+namespace MR::GUI::MRView::Sync
       {
         /**
         * Syncs values from mrview's window, using the interprocess syncer. In a diagram:
@@ -56,7 +50,4 @@ namespace MR
         };
 
       }
-    }
-  }
-}
 #endif

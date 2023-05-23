@@ -20,9 +20,7 @@
 #include "memory.h"
 #include "file/dicom/patient.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       class Series;
       class Patient;
@@ -53,8 +51,6 @@ namespace MR {
       extern vector<std::shared_ptr<Series>> (*select_func) (const Tree& tree);
 
     }
-  }
-}
 
 #endif
 

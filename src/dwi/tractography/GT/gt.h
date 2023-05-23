@@ -30,10 +30,7 @@
 #include "types.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace GT {
+namespace MR::DWI::Tractography::GT {
 
         const double M_4PI = 4.0 * Math::pi;
         const double M_sqrt4PI = std::sqrt(M_4PI);
@@ -218,8 +215,5 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 
 #endif // __gt_gt_h__

@@ -27,13 +27,7 @@
 
 //#define GLM_ALL_STATS_DEBUG
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Stats
-    {
-      namespace GLM
+namespace MR::Math::Stats::GLM
       {
 
 
@@ -1234,6 +1228,3 @@ namespace MR
 
 
       }
-    }
-  }
-}

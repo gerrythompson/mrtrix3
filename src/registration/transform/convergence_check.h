@@ -26,9 +26,7 @@
 namespace MR
 {
   using namespace MR::Math;
-  namespace Registration
-  {
-    namespace Transform
+  namespace Registration::Transform
     {
       // convergence check using linear trend of each parameter during gradient descent
       // we use double exponential smoothing to get rid of small oscillations
@@ -71,5 +69,4 @@ namespace MR
 
         };
     }
-  }
 }

@@ -23,11 +23,7 @@
 #include "algo/random_threaded_loop.h"
 #include "algo/random_loop.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Metric
+namespace MR::Registration::Metric
     {
 
       //! \cond skip
@@ -384,7 +380,5 @@ namespace MR
           ssize_t* overlap_count;
       };
     }
-  }
-}
 
 #endif

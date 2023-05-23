@@ -88,11 +88,7 @@ namespace
 
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace Shapes
+namespace MR::GUI::Shapes
     {
 
 
@@ -115,8 +111,6 @@ namespace MR
 
 
     }
-  }
-}
 
 
 

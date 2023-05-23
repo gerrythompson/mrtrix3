@@ -35,13 +35,7 @@
 #include "fixel/legacy/keys.h"
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace SIFT
+namespace MR::DWI::Tractography::SIFT
       {
 
       // Output functions - non-essential, mostly debugging outputs
@@ -254,9 +248,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 
 #endif

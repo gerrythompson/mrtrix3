@@ -21,9 +21,7 @@
 #include "file/ofstream.h"
 #include "image_io/default.h"
 
-namespace MR
-{
-  namespace ImageIO
+namespace MR::ImageIO
   {
 
     void Default::load (const Header& header, size_t)
@@ -113,6 +111,5 @@ namespace MR
     }
 
   }
-}
 
 

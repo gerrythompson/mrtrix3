@@ -31,11 +31,7 @@ namespace MR
 
   class Header;
 
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+  namespace GUI::MRView::Tool
       {
 
 
@@ -83,8 +79,6 @@ namespace MR
 
 
       }
-    }
-  }
 }
 
 #endif

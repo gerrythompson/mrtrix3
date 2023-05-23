@@ -23,9 +23,7 @@
 #include "gui/opengl/gl.h"
 #include "gui/opengl/shader.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
 
 
@@ -48,6 +46,5 @@ namespace MR
 
 
   }
-}
 
 #endif

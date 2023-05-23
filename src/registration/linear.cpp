@@ -16,9 +16,7 @@
 
 #include "registration/linear.h"
 
-namespace MR
-{
-  namespace Registration
+namespace MR::Registration
   {
 
     using namespace App;
@@ -356,5 +354,4 @@ namespace MR
                                    "antipodally symmetric spherical harmonic series (i.e. 6, 15, 28, 45, 66 etc)");
 
   }
-}
 

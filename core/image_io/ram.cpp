@@ -22,9 +22,7 @@
 #include "header.h"
 #include "image_io/ram.h"
 
-namespace MR
-{
-  namespace ImageIO
+namespace MR::ImageIO
   {
 
 
@@ -46,6 +44,5 @@ namespace MR
     }
 
   }
-}
 
 

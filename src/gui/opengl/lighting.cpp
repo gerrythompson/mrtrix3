@@ -17,11 +17,7 @@
 #include "file/config.h"
 #include "gui/opengl/lighting.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace GL
+namespace MR::GUI::GL
     {
       namespace {
 
@@ -73,6 +69,4 @@ namespace MR
 
 
     }
-  }
-}
 

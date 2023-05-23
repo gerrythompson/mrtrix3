@@ -16,13 +16,7 @@
 
 #include "gui/mrview/tool/fixel/image4D.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
         void Image4D::load_image_buffer()
@@ -137,6 +131,3 @@ namespace MR
 
 
       }
-    }
-  }
-}

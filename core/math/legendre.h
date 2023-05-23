@@ -19,11 +19,7 @@
 
 #include "math/math.h"
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Legendre
+namespace MR::Math::Legendre
     {
 
       template <typename ValueType>
@@ -146,7 +142,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

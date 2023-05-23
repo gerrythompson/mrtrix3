@@ -18,11 +18,7 @@
 #ifndef __registration_metric_linear_base_h__
 #define __registration_metric_linear_base_h__
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Metric
+namespace MR::Registration::Metric
     {
 
     class LinearBase { 
@@ -67,6 +63,4 @@ namespace MR
       };
 
     }
-  }
-}
 #endif

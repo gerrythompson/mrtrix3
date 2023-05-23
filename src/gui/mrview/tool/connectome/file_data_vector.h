@@ -21,13 +21,7 @@
 
 #include "gui/gui.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
       // Vector that stores the name of the file imported, so it can be displayed in the GUI
@@ -63,9 +57,6 @@ namespace MR
       };
 
       }
-    }
-  }
-}
 
 #endif
 

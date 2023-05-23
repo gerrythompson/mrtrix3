@@ -22,11 +22,7 @@
 #include "surface/mesh.h"
 #include "surface/mesh_multi.h"
 
-namespace MR
-{
-  namespace Surface
-  {
-    namespace Filter
+namespace MR::Surface::Filter
     {
 
       /*! A base class for defining surface mesh filters.
@@ -66,8 +62,6 @@ namespace MR
 
 
     }
-  }
-}
 
 
 #endif

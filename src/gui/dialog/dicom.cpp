@@ -19,11 +19,7 @@
 #include "gui/dialog/dicom.h"
 #include "gui/gui.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace Dialog
+namespace MR::GUI::Dialog
     {
 
       namespace
@@ -230,7 +226,5 @@ namespace MR
 
 
     }
-  }
-}
 
 

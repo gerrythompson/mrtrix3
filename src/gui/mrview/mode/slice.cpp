@@ -18,13 +18,7 @@
 
 #include "gui/opengl/transformation.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Mode
+namespace MR::GUI::MRView::Mode
       {
 
 
@@ -139,8 +133,5 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 

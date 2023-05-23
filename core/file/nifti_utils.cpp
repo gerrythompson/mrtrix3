@@ -25,11 +25,7 @@
 #include "image_io/default.h"
 #include "image_io/gz.h"
 
-namespace MR
-{
-  namespace File
-  {
-    namespace NIfTI
+namespace MR::File::NIfTI
     {
 
       namespace {
@@ -846,6 +842,4 @@ namespace MR
 
 
     }
-  }
-}
 

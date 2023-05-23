@@ -21,11 +21,7 @@
 #include "surface/filter/base.h"
 
 
-namespace MR
-{
-  namespace Surface
-  {
-    namespace Filter
+namespace MR::Surface::Filter
     {
 
 
@@ -68,8 +64,6 @@ namespace MR
 
 
     }
-  }
-}
 
 
 #endif

@@ -28,9 +28,7 @@
 #include "file/key_value.h"
 #include "file/name_parser.h"
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
     // extensions are:
@@ -118,4 +116,3 @@ namespace MR
 
 
   }
-}

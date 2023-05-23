@@ -24,9 +24,7 @@
 
 
 
-namespace MR
-{
-  namespace Axes
+namespace MR::Axes
   {
 
 
@@ -48,7 +46,6 @@ namespace MR
 
 
   }
-}
 
 #endif
 

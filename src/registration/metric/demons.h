@@ -22,11 +22,7 @@
 #include "image_helpers.h"
 #include "adapter/gradient3D.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Metric
+namespace MR::Registration::Metric
     {
 
       template <class Im1ImageType, class Im2ImageType, class Im1MaskType, class Im2MaskType>
@@ -142,6 +138,4 @@ namespace MR
 
       };
     }
-  }
-}
 #endif

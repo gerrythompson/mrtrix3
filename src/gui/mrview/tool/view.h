@@ -22,12 +22,7 @@
 #include "gui/mrview/spin_box.h"
 #include "gui/opengl/transformation.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-
-    namespace MRView
+namespace MR::GUI::MRView
     {
       class AdjustButton;
 
@@ -149,8 +144,6 @@ namespace MR
 
       }
     }
-  }
-}
 
 #endif
 

@@ -17,10 +17,7 @@
 #include "dwi/tractography/mapping/mapper.h"
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Mapping {
+namespace MR::DWI::Tractography::Mapping {
 
 
 
@@ -368,9 +365,6 @@ void TrackMapperTWI::load_factors (const Streamline<>& tck) const
 
 
 
-}
-}
-}
 }
 
 

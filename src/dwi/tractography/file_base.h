@@ -30,11 +30,7 @@
 
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
+namespace MR::DWI::Tractography
     {
 
       //! \cond skip
@@ -158,8 +154,6 @@ namespace MR
 
 
     }
-  }
-}
 
 
 #endif

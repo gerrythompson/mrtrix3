@@ -19,11 +19,7 @@
 #include "gui/mrview/colourmap_button.h"
 
 
-namespace MR
-{
-namespace GUI
-{
-namespace MRView
+namespace MR::GUI::MRView
 {
 
 
@@ -235,6 +231,4 @@ void ColourMapButton::reset_intensity_slot()
 }
 
 
-}
-}
 }

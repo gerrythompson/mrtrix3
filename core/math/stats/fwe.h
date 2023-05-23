@@ -21,11 +21,7 @@
 #include "math/stats/typedefs.h"
 
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Stats
+namespace MR::Math::Stats
     {
 
 
@@ -35,7 +31,5 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif

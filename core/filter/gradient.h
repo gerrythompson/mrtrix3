@@ -26,9 +26,7 @@
 #include "filter/base.h"
 #include "filter/smooth.h"
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
     /** \addtogroup Filters
     @{ */
@@ -157,6 +155,5 @@ namespace MR
     };
     //! @}
   }
-}
 
 #endif

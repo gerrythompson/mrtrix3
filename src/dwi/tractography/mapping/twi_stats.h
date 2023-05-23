@@ -18,10 +18,7 @@
 #define __dwi_tractography_mapping_twi_stat_h__
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Mapping {
+namespace MR::DWI::Tractography::Mapping {
 
 
 enum contrast_t { TDI, LENGTH, INVLENGTH, SCALAR_MAP, SCALAR_MAP_COUNT, FOD_AMP, CURVATURE, VECTOR_FILE };
@@ -34,9 +31,6 @@ extern const char* voxel_statistics[];
 extern const char* track_statistics[];
 
 
-}
-}
-}
 }
 
 #endif

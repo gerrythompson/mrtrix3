@@ -24,9 +24,7 @@ namespace MR
 {
   class Header;
 
-  namespace GUI
-  {
-    namespace Dialog
+  namespace GUI::Dialog
     {
       class TreeModel;
 
@@ -49,7 +47,6 @@ namespace MR
       };
 
     }
-  }
 }
 
 #endif

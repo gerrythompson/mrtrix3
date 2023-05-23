@@ -18,13 +18,7 @@
 #include "gui/gui.h"
 #include "gui/dialog/progress.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace Dialog
-    {
-      namespace ProgressBar
+namespace MR::GUI::Dialog::ProgressBar
       {
 
         namespace {
@@ -73,7 +67,4 @@ namespace MR
         }
 
       }
-    }
-  }
-}
 

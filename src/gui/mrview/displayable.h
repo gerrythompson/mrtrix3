@@ -29,10 +29,7 @@ namespace MR
 {
   class ProgressBar;
 
-  namespace GUI
-  {
-
-    namespace MRView
+  namespace GUI::MRView
     {
 
       class Window;
@@ -335,7 +332,6 @@ namespace MR
 
 
     }
-  }
 }
 
 #endif

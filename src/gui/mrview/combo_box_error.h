@@ -20,11 +20,7 @@
 #include "mrtrix.h"
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
 
       class ComboBoxWithErrorMsg : public QComboBox
@@ -50,8 +46,6 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif
 

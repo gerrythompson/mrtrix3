@@ -30,9 +30,7 @@
 #include "math/median.h"
 
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
 
 
@@ -319,7 +317,6 @@ namespace MR
     };
     //! @}
   }
-}
 
 
 

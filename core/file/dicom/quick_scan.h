@@ -20,9 +20,7 @@
 #include <map>
 #include "mrtrix.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       class QuickScan { 
 
@@ -41,8 +39,6 @@ namespace MR {
       std::ostream& operator<< (std::ostream& stream, const QuickScan& file);
 
     }
-  }
-}
 
 #endif
 

@@ -19,9 +19,7 @@
 
 #include <limits>
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
     //! \addtogroup Optimisation
@@ -245,7 +243,6 @@ namespace MR
       };
     //! @}
   }
-}
 
 #endif
 

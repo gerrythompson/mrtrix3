@@ -20,8 +20,7 @@
 #include <set>
 #include "thread_queue.h"
 
-namespace MR {
-  namespace Thread {
+namespace MR::Thread {
 
 
 
@@ -410,7 +409,6 @@ namespace MR {
 
 
   }
-}
 
 #endif
 

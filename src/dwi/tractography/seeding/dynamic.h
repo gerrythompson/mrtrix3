@@ -57,11 +57,7 @@
 
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
+namespace MR::DWI::Tractography
     {
 
       namespace ACT { class GMWMI_finder; }
@@ -298,8 +294,6 @@ namespace MR
 
       }
     }
-  }
-}
 
 #endif
 

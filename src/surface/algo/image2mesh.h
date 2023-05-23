@@ -29,11 +29,7 @@
 
 
 
-namespace MR
-{
-  namespace Surface
-  {
-    namespace Algo
+namespace MR::Surface::Algo
     {
 
 
@@ -528,8 +524,6 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif
 

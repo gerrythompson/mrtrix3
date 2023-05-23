@@ -17,11 +17,7 @@
 #include "gui/opengl/gl.h"
 #include "file/config.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace GL
+namespace MR::GUI::GL
     {
 
       Area* glwidget = nullptr;
@@ -132,8 +128,6 @@ namespace MR
 
 
     }
-  }
-}
 
 
 

@@ -28,9 +28,7 @@ namespace MR
 {
   using namespace MR::Math;
 
-  namespace Registration
-  {
-    namespace Transform
+  namespace Registration::Transform
     {
       void project_linear2rotation(const Eigen::Matrix<default_type, 3, 3>& linear, Eigen::Matrix<default_type, 3, 3>& rotation) {
         Eigen::JacobiSVD<Eigen::Matrix<default_type, 3, 3>> svd(linear, Eigen::ComputeFullU | Eigen::ComputeFullV);
@@ -275,6 +273,5 @@ namespace MR
 
       //! @}
     }
-  }
 }
 

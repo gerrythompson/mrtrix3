@@ -19,9 +19,7 @@
 #include "file/utils.h"
 
 
-namespace MR
-{
-  namespace File
+namespace MR::File
   {
 
 
@@ -39,7 +37,6 @@ namespace MR
 
 
   }
-}
 
 
 

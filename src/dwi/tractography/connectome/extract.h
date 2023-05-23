@@ -26,10 +26,7 @@
 #include "dwi/tractography/connectome/exemplar.h"
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Connectome {
+namespace MR::DWI::Tractography::Connectome {
 
 
 
@@ -134,9 +131,6 @@ class WriterExtraction
 
 
 
-}
-}
-}
 }
 
 

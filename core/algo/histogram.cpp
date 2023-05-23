@@ -16,11 +16,7 @@
 
 #include "algo/histogram.h"
 
-namespace MR
-{
-  namespace Algo
-  {
-    namespace Histogram
+namespace MR::Algo::Histogram
     {
 
 
@@ -215,5 +211,3 @@ namespace MR
 
 
     }
-  }
-}

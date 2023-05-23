@@ -27,9 +27,7 @@
 #define MRTRIX_QUEUE_DEFAULT_CAPACITY 128
 #define MRTRIX_QUEUE_DEFAULT_BATCH_SIZE 128
 
-namespace MR
-{
-  namespace Thread
+namespace MR::Thread
   {
 
 
@@ -1215,7 +1213,6 @@ namespace MR
        /** @} */
        /** @} */
   }
-}
 
 #endif
 

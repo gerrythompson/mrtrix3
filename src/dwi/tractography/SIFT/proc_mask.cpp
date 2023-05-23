@@ -22,13 +22,7 @@
 
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace SIFT
+namespace MR::DWI::Tractography::SIFT
       {
 
 
@@ -192,7 +186,4 @@ namespace MR
 
 
       }
-    }
-  }
-}
 

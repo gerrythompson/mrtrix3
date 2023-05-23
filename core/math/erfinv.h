@@ -17,9 +17,7 @@
 
 #include "math/math.h"
 
-namespace MR
-{
-  namespace Math
+namespace MR::Math
   {
 
 
@@ -48,5 +46,4 @@ namespace MR
 
 
   }
-}
 

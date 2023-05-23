@@ -21,9 +21,7 @@
 
 #include "dwi/shells.h"
 
-namespace MR
-{
-  namespace DWI
+namespace MR::DWI
   {
 
     template <typename T, class MatrixType>
@@ -124,6 +122,5 @@ namespace MR
     }
 
   }
-}
 
 #endif

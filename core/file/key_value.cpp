@@ -19,11 +19,7 @@
 #include "file/ofstream.h"
 #include "app.h"
 
-namespace MR
-{
-  namespace File
-  {
-    namespace KeyValue
+namespace MR::File::KeyValue
     {
 
 
@@ -111,7 +107,5 @@ namespace MR
 
 
     }
-  }
-}
 
 

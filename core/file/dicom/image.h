@@ -23,9 +23,7 @@
 #include "types.h"
 #include "file/dicom/element.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       class Series;
       class Element;
@@ -179,8 +177,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 
 #endif

@@ -18,9 +18,7 @@
 #include "file/dicom/element.h"
 #include "debug.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
 
 
@@ -566,6 +564,4 @@ namespace MR {
 
 
     }
-  }
-}
 

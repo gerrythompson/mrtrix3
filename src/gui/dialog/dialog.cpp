@@ -26,11 +26,7 @@
 #include "gui/dialog/progress.h"
 #include "gui/dialog/report_exception.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace Dialog
+namespace MR::GUI::Dialog
     {
 
 
@@ -48,6 +44,4 @@ namespace MR
 
 
     }
-  }
-}
 

@@ -18,9 +18,7 @@
 #include "file/nifti_utils.h"
 #include "dwi/shells.h"
 
-namespace MR
-{
-  namespace DWI
+namespace MR::DWI
   {
 
     using namespace App;
@@ -330,6 +328,5 @@ namespace MR
 
 
   }
-}
 
 

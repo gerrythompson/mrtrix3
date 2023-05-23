@@ -23,11 +23,7 @@
 #include "image_helpers.h"
 #include "algo/neighbourhooditerator.h"
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Metric
+namespace MR::Registration::Metric
     {
 
       template <class Im1ImageType, class Im2ImageType, class Im1MaskType, class Im2MaskType, class DerivedImageType>
@@ -113,6 +109,4 @@ namespace MR
         }
 
     }
-  }
-}
 #endif

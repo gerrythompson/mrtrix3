@@ -19,11 +19,7 @@
 
 #include "math/math.h"
 
-namespace MR
-{
-  namespace Math
-  {
-    namespace Chebyshev
+namespace MR::Math::Chebyshev
     {
 
       template <typename T> inline T eval (const double* coef, const int order, const T lower, const T upper, const T x)
@@ -39,8 +35,6 @@ namespace MR
       }
 
     }
-  }
-}
 
 #endif
 

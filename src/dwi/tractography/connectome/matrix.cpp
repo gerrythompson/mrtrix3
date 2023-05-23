@@ -20,10 +20,7 @@
 #include "misc/bitset.h"
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Connectome {
+namespace MR::DWI::Tractography::Connectome {
 
 
 
@@ -316,9 +313,6 @@ template class Matrix<double>;
 
 
 
-}
-}
-}
 }
 
 

@@ -28,10 +28,7 @@
 #include "dwi/tractography/streamline.h"
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Connectome {
+namespace MR::DWI::Tractography::Connectome {
 
 
 
@@ -234,9 +231,6 @@ class Tck2nodes_all_voxels : public Tck2nodes_base
 
 
 
-}
-}
-}
 }
 
 

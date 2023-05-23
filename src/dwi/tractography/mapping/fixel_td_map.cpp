@@ -18,18 +18,12 @@
 
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Mapping {
 
 
 
 
 
-}
-}
-}
-}
+
+
 
 

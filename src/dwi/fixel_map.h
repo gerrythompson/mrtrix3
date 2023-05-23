@@ -25,9 +25,7 @@
 #include "dwi/directions/mask.h"
 
 
-namespace MR
-{
-  namespace DWI
+namespace MR::DWI
   {
 
 
@@ -204,7 +202,6 @@ namespace MR
 
 
   }
-}
 
 
 

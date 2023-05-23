@@ -18,9 +18,7 @@
 
 #include "formats/list.h"
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
     RAM           RAM_handler;
     Pipe          pipe_handler;
@@ -103,7 +101,6 @@ namespace MR
     };
 
   }
-}
 
 
 

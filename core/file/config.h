@@ -21,9 +21,7 @@
 #include "types.h"
 #include "file/key_value.h"
 
-namespace MR
-{
-  namespace File
+namespace MR::File
   {
     class Config { 
       public:
@@ -51,7 +49,6 @@ namespace MR
         static KeyValues config;
     };
   }
-}
 
 #endif
 

@@ -28,13 +28,7 @@
 
 const size_t MAX_BUFFER_SIZE = 2796200;  // number of points to fill 32MB
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
         const int Tractogram::track_padding;
         TrackGeometryType Tractogram::default_tract_geom (TrackGeometryType::Pseudotubes);
@@ -1057,6 +1051,3 @@ namespace MR
 
 
       }
-    }
-  }
-}

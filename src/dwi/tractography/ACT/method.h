@@ -30,13 +30,7 @@
 #define GMWMI_NORMAL_PERTURBATION 0.001
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace ACT
+namespace MR::DWI::Tractography::ACT
       {
 
 
@@ -165,9 +159,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif
 

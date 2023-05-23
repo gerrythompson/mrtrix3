@@ -18,9 +18,7 @@
 
 
 
-namespace MR {
-  namespace DWI {
-    namespace FMLS {
+namespace MR::DWI::FMLS {
 
 
 
@@ -455,5 +453,3 @@ namespace MR {
 
 
     }
-  }
-}

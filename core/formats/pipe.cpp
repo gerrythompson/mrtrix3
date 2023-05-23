@@ -23,9 +23,7 @@
 #include "image_io/pipe.h"
 #include "formats/list.h"
 
-namespace MR
-{
-  namespace Formats
+namespace MR::Formats
   {
 
     std::unique_ptr<ImageIO::Base> Pipe::read (Header& H) const
@@ -85,5 +83,4 @@ namespace MR
 
 
   }
-}
 

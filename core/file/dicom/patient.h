@@ -20,9 +20,7 @@
 #include "memory.h"
 #include "file/dicom/study.h"
 
-namespace MR {
-  namespace File {
-    namespace Dicom {
+namespace MR::File::Dicom {
 
       class Study;
 
@@ -51,8 +49,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 
 #endif

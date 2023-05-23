@@ -26,15 +26,13 @@ namespace MR {
     class Base;
   }
 
-  namespace File {
-    namespace Dicom {
+  namespace File::Dicom {
 
       class Series;
 
       std::unique_ptr<MR::ImageIO::Base> dicom_to_mapper (MR::Header& H, vector<std::shared_ptr<Series>>& series);
       
     }
-  }
 }
 
 #endif

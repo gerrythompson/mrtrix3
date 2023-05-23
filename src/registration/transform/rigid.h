@@ -23,11 +23,7 @@
 
 using namespace MR::Math;
 
-namespace MR
-{
-  namespace Registration
-  {
-    namespace Transform
+namespace MR::Registration::Transform
     {
 
       class RigidLinearNonSymmetricUpdate { 
@@ -124,7 +120,5 @@ namespace MR
       };
       //! @}
     }
-  }
-}
 
 #endif

@@ -18,13 +18,7 @@
 #include "dwi/tractography/properties.h"
 
 
-namespace MR
-{
-  namespace DWI
-  {
-    namespace Tractography
-    {
-      namespace ACT
+namespace MR::DWI::Tractography::ACT
       {
 
         using namespace App;
@@ -78,8 +72,5 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 

@@ -20,11 +20,7 @@
 #include "gui/mrview/displayable.h"
 #include "gui/projection.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
+namespace MR::GUI::MRView
     {
       //CONF option: MRViewMaxNumColourBarRows
       //CONF default: 3
@@ -226,6 +222,4 @@ namespace MR
 
 
     }
-  }
-}
 

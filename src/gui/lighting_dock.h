@@ -19,9 +19,7 @@
 
 #include "gui/opengl/lighting.h"
 
-namespace MR
-{
-  namespace GUI
+namespace MR::GUI
   {
     class LightingSettings : public QFrame
     { 
@@ -51,7 +49,6 @@ namespace MR
         LightingSettings* settings;
     };
   }
-}
 
 #endif
 

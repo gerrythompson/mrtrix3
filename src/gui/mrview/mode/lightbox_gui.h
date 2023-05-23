@@ -19,15 +19,7 @@
 
 #include "gui/mrview/spin_box.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Mode
-      {
-        namespace LightBoxViewControls
+namespace MR::GUI::MRView::Mode::LightBoxViewControls
         {
           class LightBoxEditButton : public SpinBox
           { 
@@ -48,10 +40,6 @@ namespace MR
           };
 
         }
-      }
-    }
-  }
-}
 
 
 #endif

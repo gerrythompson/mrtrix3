@@ -29,9 +29,7 @@
 #include <iostream>
 
 
-namespace MR
-{
-  namespace Filter
+namespace MR::Filter
   {
 
 
@@ -347,7 +345,6 @@ namespace MR
     };
     //! @}
   }
-}
 
 
 #endif

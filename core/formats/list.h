@@ -28,11 +28,7 @@
       virtual std::unique_ptr<ImageIO::Base> create (Header& H) const; \
   }
 
-namespace MR
-{
-
-  //! Classes responsible for handling of specific image formats
-  namespace Formats
+namespace MR::Formats
   {
 
     //! the interface for classes that support the various image formats.
@@ -120,7 +116,6 @@ namespace MR
     //! \endcond
 
   }
-}
 
 
 

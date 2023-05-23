@@ -23,10 +23,7 @@
 #include "math/median.h"
 
 
-namespace MR
-{
-
-  namespace Stats
+namespace MR::Stats
   {
 
     extern const char * field_choices[];
@@ -151,8 +148,6 @@ namespace MR
     }
 
   }
-
-}
 
 
 

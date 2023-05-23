@@ -17,10 +17,7 @@
 #include "dwi/tractography/editing/receiver.h"
 
 
-namespace MR {
-  namespace DWI {
-    namespace Tractography {
-      namespace Editing {
+namespace MR::DWI::Tractography::Editing {
 
 
 
@@ -83,7 +80,4 @@ namespace MR {
 
 
       }
-    }
-  }
-}
 

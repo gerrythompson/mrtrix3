@@ -20,9 +20,7 @@
 #include "image_io/base.h"
 #include "file/mmap.h"
 
-namespace MR
-{
-  namespace ImageIO
+namespace MR::ImageIO
   {
 
     class Mosaic : public Base
@@ -42,7 +40,6 @@ namespace MR
     };
 
   }
-}
 
 #endif
 

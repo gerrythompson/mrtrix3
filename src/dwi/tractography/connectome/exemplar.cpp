@@ -23,10 +23,7 @@
 
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Connectome {
+namespace MR::DWI::Tractography::Connectome {
 
 
 
@@ -189,9 +186,6 @@ void Exemplar::finalize (const float step_size)
 }
 
 
-}
-}
-}
 }
 
 

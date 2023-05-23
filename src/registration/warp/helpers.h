@@ -17,12 +17,7 @@
 #ifndef __registration_warp_utils_h__
 #define __registration_warp_utils_h__
 
-namespace MR
-{
-  namespace Registration
-  {
-
-    namespace Warp
+namespace MR::Registration::Warp
     {
 
       template <class HeaderType>
@@ -68,7 +63,5 @@ namespace MR
       }
 
     }
-  }
-}
 
 #endif

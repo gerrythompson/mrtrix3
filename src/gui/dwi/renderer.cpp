@@ -24,11 +24,7 @@
 
 
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace DWI
+namespace MR::GUI::DWI
     {
 
 
@@ -666,5 +662,3 @@ namespace MR
 
 
     }
-  }
-}

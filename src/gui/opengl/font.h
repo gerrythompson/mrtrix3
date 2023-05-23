@@ -19,11 +19,7 @@
 
 #include "gui/opengl/shader.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace GL
+namespace MR::GUI::GL
     {
 
       class Font { 
@@ -71,8 +67,6 @@ namespace MR
 
 
     }
-  }
-}
 
 #endif
 

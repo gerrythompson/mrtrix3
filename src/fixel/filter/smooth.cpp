@@ -22,11 +22,7 @@
 #include "transform.h"
 #include "fixel/helpers.h"
 
-namespace MR
-{
-  namespace Fixel
-  {
-    namespace Filter
+namespace MR::Fixel::Filter
     {
 
 
@@ -183,6 +179,4 @@ namespace MR
 
 
     }
-  }
-}
 

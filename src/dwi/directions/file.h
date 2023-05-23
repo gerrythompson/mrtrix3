@@ -19,9 +19,7 @@
 
 #include "math/sphere.h"
 
-namespace MR {
-  namespace DWI {
-    namespace Directions {
+namespace MR::DWI::Directions {
 
       Eigen::MatrixXd load_spherical (const std::string& filename);
       Eigen::MatrixXd load_cartesian (const std::string& filename);
@@ -55,8 +53,6 @@ namespace MR {
 
 
     }
-  }
-}
 
 #endif
 

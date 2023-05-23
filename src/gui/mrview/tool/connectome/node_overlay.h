@@ -23,13 +23,7 @@
 #include "gui/mrview/displayable.h"
 #include "gui/mrview/gui_image.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
       // Class to handle the node image overlay
@@ -56,9 +50,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 #endif
 

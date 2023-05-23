@@ -23,10 +23,7 @@
 #include "dwi/tractography/connectome/tck2nodes.h"
 
 
-namespace MR {
-namespace DWI {
-namespace Tractography {
-namespace Connectome {
+namespace MR::DWI::Tractography::Connectome {
 
 
 
@@ -76,9 +73,6 @@ class Mapper
 
 
 
-}
-}
-}
 }
 
 

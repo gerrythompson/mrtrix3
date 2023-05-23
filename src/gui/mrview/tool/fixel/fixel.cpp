@@ -26,13 +26,7 @@
 #include "gui/mrview/tool/list_model_base.h"
 #include "math/rng.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Tool
+namespace MR::GUI::MRView::Tool
       {
 
 
@@ -867,9 +861,6 @@ namespace MR
 
 
       }
-    }
-  }
-}
 
 
 

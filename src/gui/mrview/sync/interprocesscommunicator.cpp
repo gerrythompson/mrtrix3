@@ -23,13 +23,7 @@
 #include "gui/mrview/sync/enums.h"
 #include "gui/mrview/sync/processlock.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
-      namespace Sync
+namespace MR::GUI::MRView::Sync
       {
         InterprocessCommunicator::InterprocessCommunicator() : QObject(0)
         {
@@ -276,6 +270,3 @@ namespace MR
 
 
       }
-    }
-  }
-}
