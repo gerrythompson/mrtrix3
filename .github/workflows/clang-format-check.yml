@@ -11,3 +11,5 @@ jobs:
       with:
         clang-format-version: '16'
         fallback-style: 'LLVM'
+        # Ignore third-party headers.
+        exclude-regex: 'core/file/(json|nifti[12]).h'
