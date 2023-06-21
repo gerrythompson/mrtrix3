@@ -43,7 +43,8 @@ List of MRtrix3 configuration file options
 
     *default: 1.0*
 
-     The multiplicative factor to apply to the transparency of edges connected to one selected node.
+     The multiplicative factor to apply to the transparency of edges connected to one selected
+     node.
 
 .. option:: ConnectomeEdgeAssociatedColour
 
@@ -55,7 +56,8 @@ List of MRtrix3 configuration file options
 
     *default: 0.5*
 
-     The fraction of the colour of an edge connected to one selected node determined by the fixed colour.
+     The fraction of the colour of an edge connected to one selected node determined by the
+     fixed colour.
 
 .. option:: ConnectomeEdgeAssociatedSizeMultiplier
 
@@ -67,7 +69,8 @@ List of MRtrix3 configuration file options
 
     *default: 1.0*
 
-     The multiplicative factor to apply to the transparency of edges not connected to any selected node.
+     The multiplicative factor to apply to the transparency of edges not connected to any
+     selected node.
 
 .. option:: ConnectomeEdgeOtherColour
 
@@ -79,13 +82,15 @@ List of MRtrix3 configuration file options
 
     *default: 0.75*
 
-     The fraction of the colour of an edge not connected to any selected node determined by the fixed colour.
+     The fraction of the colour of an edge not connected to any selected node determined by the
+     fixed colour.
 
 .. option:: ConnectomeEdgeOtherSizeMultiplier
 
     *default: 1.0*
 
-     The multiplicative factor to apply to the size of edges not connected to any selected node.
+     The multiplicative factor to apply to the size of edges not connected to any selected
+     node.
 
 .. option:: ConnectomeEdgeOtherVisibilityOverride
 
@@ -97,7 +102,8 @@ List of MRtrix3 configuration file options
 
     *default: 1.0*
 
-     The multiplicative factor to apply to the transparency of edges connected to two selected nodes.
+     The multiplicative factor to apply to the transparency of edges connected to
+     two selected nodes.
 
 .. option:: ConnectomeEdgeSelectedColour
 
@@ -109,7 +115,8 @@ List of MRtrix3 configuration file options
 
     *default: 0.5*
 
-     The fraction of the colour of an edge connected to two selected nodes determined by the fixed selection highlight colour.
+     The fraction of the colour of an edge connected to two selected nodes determined by the
+     fixed selection highlight colour.
 
 .. option:: ConnectomeEdgeSelectedSizeMultiplier
 
@@ -127,7 +134,8 @@ List of MRtrix3 configuration file options
 
     *default: 1.0*
 
-     The multiplicative factor to apply to the transparency of nodes associated with a selected node.
+     The multiplicative factor to apply to the transparency of nodes associated with
+     a selected node.
 
 .. option:: ConnectomeNodeAssociatedColour
 
@@ -139,7 +147,8 @@ List of MRtrix3 configuration file options
 
     *default: 0.5*
 
-     The fraction of the colour of an associated node determined by the fixed associated highlight colour.
+     The fraction of the colour of an associated node determined by the fixed associated
+     highlight colour.
 
 .. option:: ConnectomeNodeAssociatedSizeMultiplier
 
@@ -151,31 +160,36 @@ List of MRtrix3 configuration file options
 
     *default: 1.0*
 
-     The multiplicative factor to apply to the transparency of nodes not currently selected nor associated with a selected node.
+     The multiplicative factor to apply to the transparency of nodes not currently selected nor
+     associated with a selected node.
 
 .. option:: ConnectomeNodeOtherColour
 
     *default: 0.0,0.0,0.0*
 
-     The colour mixed in to those nodes currently not selected nor associated with any selected node.
+     The colour mixed in to those nodes currently not selected nor associated with any selected
+     node.
 
 .. option:: ConnectomeNodeOtherColourFade
 
     *default: 0.75*
 
-     The fraction of the colour of an unselected, non-associated node determined by the fixed not-selected highlight colour.
+     The fraction of the colour of an unselected, non-associated node determined by the fixed
+     not-selected highlight colour.
 
 .. option:: ConnectomeNodeOtherSizeMultiplier
 
     *default: 1.0*
 
-     The multiplicative factor to apply to the size of nodes not currently selected nor associated with a selected node.
+     The multiplicative factor to apply to the size of nodes not currently selected nor
+     associated with a selected node.
 
 .. option:: ConnectomeNodeOtherVisibilityOverride
 
     *default: false*
 
-     Whether or not nodes are forced to be invisible when not selected or associated with any selected node.
+     Whether or not nodes are forced to be invisible when not selected or associated with any
+     selected node.
 
 .. option:: ConnectomeNodeSelectedAlphaMultiplier
 
@@ -193,7 +207,8 @@ List of MRtrix3 configuration file options
 
     *default: 0.75*
 
-     The fraction of the colour of a selected node determined by the fixed selection highlight colour.
+     The fraction of the colour of a selected node determined by the fixed selection highlight
+     colour.
 
 .. option:: ConnectomeNodeSelectedSizeMultiplier
 
@@ -599,28 +614,29 @@ List of MRtrix3 configuration file options
 
     *default: 0.8*
 
-     Linear registration: control point trajectory smoothing value used in convergence check
-     parameter range: [0...1].
+     Linear registration: control point trajectory smoothing value used in convergence
+     check parameter range: [0...1].
 
 .. option:: RegGdConvergenceMinIter
 
     *default: 10*
 
-     Linear registration: minimum number of iterations until convergence check is activated.
+     Linear registration: minimum number of iterations until convergence check is
+     activated.
 
 .. option:: RegGdConvergenceSlopeSmooth
 
     *default: 0.1*
 
-     Linear registration: control point trajectory slope smoothing value used in convergence check
-     parameter range: [0...1].
+     Linear registration: control point trajectory slope smoothing value used in
+     convergence check CONF parameter range: [0...1].
 
 .. option:: RegGdConvergenceThresh
 
     *default: 5e-3*
 
-     Linear registration: threshold for convergence check using the smoothed control point trajectories
-     measured in fraction of a voxel.
+     Linear registration: threshold for convergence check using the smoothed control point
+     trajectories measured in fraction of a voxel.
 
 .. option:: RegGdWeightMatrix
 
@@ -638,7 +654,8 @@ List of MRtrix3 configuration file options
 
     *default: 0.0001*
 
-     Linear registration: smallest gradient descent step measured in fraction of a voxel at which to stop registration.
+     Linear registration: smallest gradient descent step measured in fraction of a voxel at
+     which to stop registration.
 
 .. option:: ScriptScratchDir
 
