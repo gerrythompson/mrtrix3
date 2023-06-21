@@ -14,54 +14,48 @@
  * For more details, see http://www.mrtrix.org/.
  */
 
-#include "gui/gui.h"
 #include "gui/mrview/colourmap_menu.h"
+#include "gui/gui.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
+namespace MR {
+namespace GUI {
+namespace MRView {
 
+void create_colourmap_menu(QWidget *parent,
+                           QActionGroup *&group,
+                           QMenu *menu,
+                           QAction **&actions,
+                           bool create_shortcuts,
+                           bool use_special) {
+  group = new QActionGroup(parent);
+  group->setExclusive(true);
+  actions = new QAction *[ColourMap::num()];
+  bool in_scalar_section = true;
 
+  for (size_t n = 0; ColourMap::maps[n].name; ++n) {
+    if (ColourMap::maps[n].special && !use_special)
+      continue;
+    QAction *action = new QAction(ColourMap::maps[n].name, parent);
+    action->setCheckable(true);
+    group->addAction(action);
 
-      void create_colourmap_menu (QWidget* parent, QActionGroup*& group,
-                                  QMenu* menu, QAction** & actions,
-                                  bool create_shortcuts, bool use_special)
-      {
-        group = new QActionGroup (parent);
-        group->setExclusive (true);
-        actions = new QAction* [ColourMap::num()];
-        bool in_scalar_section = true;
-
-        for (size_t n = 0; ColourMap::maps[n].name; ++n) {
-          if (ColourMap::maps[n].special && !use_special)
-            continue;
-          QAction* action = new QAction (ColourMap::maps[n].name, parent);
-          action->setCheckable (true);
-          group->addAction (action);
-
-          if (ColourMap::maps[n].special && in_scalar_section) {
-            menu->addSeparator();
-            in_scalar_section = false;
-          }
-
-          menu->addAction (action);
-          parent->addAction (action);
-
-          if (create_shortcuts)
-            action->setShortcut (qstr ("Ctrl+" + str (n+1)));
-
-          actions[n] = action;
-        }
-
-        actions[0]->setChecked (true);
-      }
-
-
-
+    if (ColourMap::maps[n].special && in_scalar_section) {
+      menu->addSeparator();
+      in_scalar_section = false;
     }
+
+    menu->addAction(action);
+    parent->addAction(action);
+
+    if (create_shortcuts)
+      action->setShortcut(qstr("Ctrl+" + str(n + 1)));
+
+    actions[n] = action;
   }
+
+  actions[0]->setChecked(true);
 }
 
+} // namespace MRView
+} // namespace GUI
+} // namespace MR

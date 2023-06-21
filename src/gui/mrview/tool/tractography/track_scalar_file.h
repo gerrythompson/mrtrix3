@@ -22,82 +22,73 @@
 #include "gui/mrview/tool/base.h"
 #include "gui/mrview/tool/tractography/tractogram_enums.h"
 
+namespace MR {
+namespace GUI {
+namespace MRView {
 
+namespace Tool {
+class Tractogram;
+class Tractography;
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
+class TrackScalarFileOptions : public QGroupBox, public DisplayableVisitor {
+  Q_OBJECT
 
-      namespace Tool
-      {
-        class Tractogram;
-        class Tractography;
+public:
+  TrackScalarFileOptions(Tractography *);
+  virtual ~TrackScalarFileOptions() {}
 
-          class TrackScalarFileOptions : public QGroupBox, public DisplayableVisitor
-          { 
-            Q_OBJECT
+  void set_tractogram(Tractogram *selected_tractogram);
 
-            public:
-              TrackScalarFileOptions (Tractography*);
-              virtual ~TrackScalarFileOptions () {}
+  void render_tractogram_colourbar(const Tool::Tractogram &) override;
 
-              void set_tractogram (Tractogram* selected_tractogram);
+  void update_UI();
+  void set_scaling(default_type min, default_type max);
+  void set_threshold(GUI::MRView::Tool::TrackThresholdType dataSource,
+                     default_type min,
+                     default_type max);
+  void set_colourmap(int colourmap_index);
 
-              void render_tractogram_colourbar (const Tool::Tractogram&) override;
+public slots:
+  bool open_intensity_track_scalar_file_slot();
+  bool open_intensity_track_scalar_file_slot(std::string);
 
-              void update_UI();
-              void set_scaling(default_type min, default_type max);
-              void set_threshold(GUI::MRView::Tool::TrackThresholdType dataSource, default_type min, default_type max);
-              void set_colourmap (int colourmap_index);
+private slots:
+  void show_colour_bar_slot();
+  void select_colourmap_slot();
+  void on_set_scaling_slot();
+  bool threshold_scalar_file_slot(int);
+  void threshold_lower_changed(int unused);
+  void threshold_upper_changed(int unused);
+  void threshold_lower_value_changed();
+  void threshold_upper_value_changed();
+  void invert_colourmap_slot();
+  void reset_intensity_slot();
 
-            public slots:
-              bool open_intensity_track_scalar_file_slot ();
-              bool open_intensity_track_scalar_file_slot(std::string);
+protected:
+  Tractography *tool;
+  Tractogram *tractogram;
+  Tool::Base::VBoxLayout *main_box;
+  QGroupBox *colour_groupbox;
+  QAction *show_colour_bar;
+  QAction *invert_scale;
+  QMenu *colourmap_menu;
+  QAction **colourmap_actions;
+  QActionGroup *colourmap_group;
+  QToolButton *colourmap_button;
+  QPushButton *intensity_file_button;
+  AdjustButton *max_entry, *min_entry;
+  QComboBox *threshold_file_combobox;
+  AdjustButton *threshold_lower, *threshold_upper;
+  QCheckBox *threshold_upper_box, *threshold_lower_box;
 
+private:
+  // Required since this no longer derives from Tool::Base
+  Window &window() const { return *Window::main; }
+};
 
-            private slots:
-              void show_colour_bar_slot();
-              void select_colourmap_slot ();
-              void on_set_scaling_slot ();
-              bool threshold_scalar_file_slot (int);
-              void threshold_lower_changed (int unused);
-              void threshold_upper_changed (int unused);
-              void threshold_lower_value_changed ();
-              void threshold_upper_value_changed ();
-              void invert_colourmap_slot ();
-              void reset_intensity_slot ();
-            
-
-            protected:
-              Tractography* tool;
-              Tractogram *tractogram;
-              Tool::Base::VBoxLayout *main_box;
-              QGroupBox *colour_groupbox;
-              QAction *show_colour_bar;
-              QAction *invert_scale;
-              QMenu *colourmap_menu;
-              QAction **colourmap_actions;
-              QActionGroup *colourmap_group;
-              QToolButton *colourmap_button;
-              QPushButton *intensity_file_button;
-              AdjustButton *max_entry, *min_entry;
-              QComboBox *threshold_file_combobox;
-              AdjustButton *threshold_lower, *threshold_upper;
-              QCheckBox *threshold_upper_box, *threshold_lower_box;
-
-            private:
-              // Required since this no longer derives from Tool::Base
-              Window& window () const { return *Window::main; }
-
-          };
-
-      }
-    }
-  }
-}
+} // namespace Tool
+} // namespace MRView
+} // namespace GUI
+} // namespace MR
 
 #endif
-

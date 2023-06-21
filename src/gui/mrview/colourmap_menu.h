@@ -20,30 +20,19 @@
 #include "colourmap.h"
 #include "gui/opengl/gl.h"
 
-namespace MR
-{
-  namespace GUI
-  {
-    namespace MRView
-    {
+namespace MR {
+namespace GUI {
+namespace MRView {
 
+void create_colourmap_menu(QWidget *parent,
+                           QActionGroup *&group,
+                           QMenu *menu,
+                           QAction **&actions,
+                           bool create_shortcuts = false,
+                           bool use_special = true);
 
-
-      void create_colourmap_menu (QWidget* parent,
-                                  QActionGroup*& group,
-                                  QMenu* menu,
-                                  QAction** & actions,
-                                  bool create_shortcuts = false,
-                                  bool use_special = true);
-
-
-
-    }
-  }
 }
+} // namespace GUI
+} // namespace MR
 
 #endif
-
-
-
-
